@@ -1,0 +1,1564 @@
+{
+  "exam_info": {
+    "exam_code": "SY0-701",
+    "exam_name": "CompTIA Security+",
+    "year": "2025",
+    "total_questions": 708,
+    "source": "IT戰"
+  },
+  "questions": [
+    {
+      "question_number": "Q1",
+      "question": "A security analyst is reviewing alerts in the SIEM related to potential malicious network traffic coming from an employee's corporate laptop. The security analyst has determined that additional data about the executable running on the machine is necessary to continue the investigation. Which of the following logs should the analyst use as a data source?",
+      "options": {
+        "A": "Application",
+        "B": "IPS/IDS",
+        "C": "Network",
+        "D": "Endpoint"
+      },
+      "correct_answer": "D",
+      "explanation": "Endpoint logs are the most suitable data source for gathering additional information about the executable running on the employee's corporate laptop. These logs contain detailed information about processes, executables, and activities occurring on the endpoint, enabling the security analyst to understand the behavior of the executable and its potential impact on the system and network."
+    },
+    {
+      "question_number": "Q2",
+      "question": "A cyber operations team informs a security analyst about a new tactic malicious actors are using to compromise networks. SIEM alerts have not yet been configured. Which of the following best describes what the security analyst should do to identify this behavior?",
+      "options": {
+        "A": "Digital forensics",
+        "B": "E-discovery",
+        "C": "Incident response",
+        "D": "Threat hunting"
+      },
+      "correct_answer": "D",
+      "explanation": "Threat hunting is the process of proactively searching for signs of malicious activity or compromise in a network, rather than waiting for alerts or indicators of compromise (IOCs) to appear. Threat hunting can help identify new tactics, techniques, and procedures (TTPs) used by malicious actors, as well as uncover hidden or stealthy threats that may have evaded detection by security tools."
+    },
+    {
+      "question_number": "Q3",
+      "question": "A company purchased cyber insurance to address items listed on the risk register. Which of the following strategies does this represent?",
+      "options": {
+        "A": "Accept",
+        "B": "Transfer",
+        "C": "Mitigate",
+        "D": "Avoid"
+      },
+      "correct_answer": "B",
+      "explanation": "Transfer: Transferring a risk involves shifting some or all of the risk to another party, such as an insurance provider, through contractual agreements or financial arrangements. If the company purchases cyber insurance to address items listed on the risk register, it represents a risk transfer strategy. The company is transferring the financial burden of potential cyber incidents to the insurance provider, who will compensate the company for covered losses."
+    },
+    {
+      "question_number": "Q4",
+      "question": "A security administrator would like to protect data on employees' laptops. Which of the following encryption techniques should the security administrator use?",
+      "options": {
+        "A": "Partition",
+        "B": "Asymmetric",
+        "C": "Full disk",
+        "D": "Database"
+      },
+      "correct_answer": "C",
+      "explanation": "Full disk encryption (FDE) encrypts all the data on a disk drive, protecting the data at rest on the entire laptop, including the operating system, applications, and user files. This ensures that if a laptop is lost or stolen, the data cannot be accessed without the correct decryption key."
+    },
+    {
+      "question_number": "Q5",
+      "question": "Which of the following security control types does an acceptable use policy best represent?",
+      "options": {
+        "A": "Detective",
+        "B": "Compensating",
+        "C": "Corrective",
+        "D": "Preventive"
+      },
+      "correct_answer": "D",
+      "explanation": "Preventive - an acceptable use policy enforces rules to users to use company resources. Example - company A states that in order to access files in the company server you must connect to your company VPN when working from home. This prevents you from connecting from an insecure network."
+    },
+    {
+      "question_number": "Q6",
+      "question": "An IT manager informs the entire help desk staff that only the IT manager and the help desk lead will have access to the administrator console of the help desk software. Which of the following security techniques is the IT manager setting up?",
+      "options": {
+        "A": "Hardening",
+        "B": "Employee monitoring",
+        "C": "Configuration enforcement",
+        "D": "Least privilege"
+      },
+      "correct_answer": "D",
+      "explanation": "The principle of least privilege is a security concept that limits access to resources to the minimum level needed for a user, a program, or a device to perform a legitimate function. It is a cybersecurity best practice that protects high-value data and assets from compromise or insider threat."
+    },
+    {
+      "question_number": "Q7",
+      "question": "Which of the following roles, according to the shared responsibility model, is responsible for securing the company's database in an IaaS model for a cloud environment?",
+      "options": {
+        "A": "Client",
+        "B": "Third-party vendor",
+        "C": "Cloud provider",
+        "D": "DBA"
+      },
+      "correct_answer": "A",
+      "explanation": "According to the shared responsibility model, the client and the cloud provider have different roles and responsibilities for securing the cloud environment, depending on the service model. In an IaaS (Infrastructure as a Service) model, the cloud provider is responsible for securing the physical infrastructure, while the client is responsible for securing the operating systems, applications, and data that run on the cloud infrastructure."
+    },
+    {
+      "question_number": "Q8",
+      "question": "A client asked a security company to provide a document outlining the project, the cost, and the completion time frame. Which of the following documents should the company provide to the client?",
+      "options": {
+        "A": "MSA",
+        "B": "SLA",
+        "C": "BPA",
+        "D": "SOW"
+      },
+      "correct_answer": "D",
+      "explanation": "An SOW (Statement of Work) is a document that outlines the project, the cost, and the completion time frame for a security company to provide a service to a client. SOW specifies the scope, deliverables, milestones, and payment terms of a security project."
+    },
+    {
+      "question_number": "Q9",
+      "question": "A security team is reviewing the findings in a report that was delivered after a third party performed a penetration test. One of the findings indicated that a web application form field is vulnerable to cross-site scripting. Which of the following application security techniques should the security analyst recommend the developer implement to prevent this vulnerability?",
+      "options": {
+        "A": "Secure cookies",
+        "B": "Version control",
+        "C": "Input validation",
+        "D": "Code signing"
+      },
+      "correct_answer": "C",
+      "explanation": "Input validation is a technique that checks the user input for any malicious or unexpected data before processing it by the web application. Input validation can prevent cross-site scripting (XSS) attacks, which exploit the vulnerability of a web application to execute malicious scripts in the browser of a victim."
+    },
+    {
+      "question_number": "Q10",
+      "question": "Which of the following must be considered when designing a high-availability network? (Choose two).",
+      "options": {
+        "A": "Ease of recovery",
+        "B": "Ability to patch",
+        "C": "Physical isolation",
+        "D": "Responsiveness",
+        "E": "Attack surface",
+        "F": "Extensible authentication"
+      },
+      "correct_answer": ["A", "D"],
+      "explanation": "Ease of recovery: High-availability networks should be designed in a way that allows for quick and easy recovery in the event of a failure. Responsiveness: High-availability networks need to be responsive to ensure that any potential issues or failures are quickly detected, and appropriate actions are taken promptly to minimize downtime and impact."
+    },
+    {
+      "question_number": "Q11",
+      "question": "A technician needs to apply a high-priority patch to a production system. Which of the following steps should be taken first?",
+      "options": {
+        "A": "Air gap the system.",
+        "B": "Move the system to a different network segment.",
+        "C": "Create a change control request.",
+        "D": "Apply the patch to the system."
+      },
+      "correct_answer": "C",
+      "explanation": "A change control request is a document that describes the proposed change to a system, the reason for the change, the expected impact, the approval process, the testing plan, the implementation plan, the rollback plan, and the communication plan."
+    },
+    {
+      "question_number": "Q12",
+      "question": "Which of the following describes the reason root cause analysis should be conducted as part of incident response?",
+      "options": {
+        "A": "To gather IoCs for the investigation",
+        "B": "To discover which systems have been affected",
+        "C": "To eradicate any trace of malware on the network",
+        "D": "To prevent future incidents of the same nature"
+      },
+      "correct_answer": "D",
+      "explanation": "Root cause analysis is a process of identifying and resolving the underlying factors that led to an incident. By conducting root cause analysis as part of incident response, security professionals can learn from the incident and implement corrective actions to prevent future incidents of the same nature."
+    },
+    {
+      "question_number": "Q13",
+      "question": "Which of the following is the most likely outcome if a large bank fails an internal PCI DSS compliance assessment?",
+      "options": {
+        "A": "Fines",
+        "B": "Audit findings",
+        "C": "Sanctions",
+        "D": "Reputation damage"
+      },
+      "correct_answer": "A",
+      "explanation": "The fines imposed by the Card Brands and Acquiring Banks on merchants for non-compliance can range from $5,000 to $100,000 per month. These fines, along with credit monitoring fees, can impose substantial financial strain on businesses."
+    },
+    {
+      "question_number": "Q14",
+      "question": "A company is developing a business continuity strategy and needs to determine how many staff members would be required to sustain the business in the case of a disruption. Which of the following best describes this step?",
+      "options": {
+        "A": "Capacity planning",
+        "B": "Redundancy",
+        "C": "Geographic dispersion",
+        "D": "Tablet exercise"
+      },
+      "correct_answer": "A",
+      "explanation": "Capacity planning is the process of determining the resources needed to meet the current and future demands of an organization. Capacity planning can help a company develop a business continuity strategy by estimating how many staff members would be required to sustain the business in the case of a disruption."
+    },
+    {
+      "question_number": "Q15",
+      "question": "A company's legal department drafted sensitive documents in a SaaS application and wants to ensure the documents cannot be accessed by individuals in high-risk countries. Which of the following is the most effective way to limit this access?",
+      "options": {
+        "A": "Data masking",
+        "B": "Encryption",
+        "C": "Geolocation policy",
+        "D": "Data sovereignty regulation"
+      },
+      "correct_answer": "C",
+      "explanation": "A geolocation policy is a policy that restricts or allows access to data or resources based on the geographic location of the user or device. A geolocation policy can help the company's legal department to prevent unauthorized access to sensitive documents from individuals in high-risk countries."
+    },
+    {
+      "question_number": "Q16",
+      "question": "Which of the following is a hardware-specific vulnerability?",
+      "options": {
+        "A": "Firmware version",
+        "B": "Buffer overflow",
+        "C": "SQL injection",
+        "D": "Cross-site scripting"
+      },
+      "correct_answer": "A",
+      "explanation": "Firmware is a type of software that is embedded in a hardware device. Firmware version is a hardware-specific vulnerability, as it can expose the device to security risks if it is outdated, corrupted, or tampered with."
+    },
+    {
+      "question_number": "Q17",
+      "question": "While troubleshooting a firewall configuration, a technician determines that a 'deny any' policy should be added to the bottom of the ACL. The technician updates the policy, but the new policy causes several company servers to become unreachable. Which of the following actions would prevent this issue?",
+      "options": {
+        "A": "Documenting the new policy in a change request and submitting the request to change management",
+        "B": "Testing the policy in a non-production environment before enabling the policy in the production network",
+        "C": "Disabling any intrusion prevention signatures on the 'deny any' policy prior to enabling the new policy",
+        "D": "Including an 'allow any' policy above the 'deny any' policy"
+      },
+      "correct_answer": "B",
+      "explanation": "Testing the policy in a non-production environment before enabling it in production helps identify and resolve issues without impacting live systems."
+    },
+    {
+      "question_number": "Q18",
+      "question": "An organization is building a new backup data center with cost-benefit as the primary requirement and RTO and RPO values around two days. Which of the following types of sites is the best for this scenario?",
+      "options": {
+        "A": "Real-time recovery",
+        "B": "Hot",
+        "C": "Cold",
+        "D": "Warm"
+      },
+      "correct_answer": "D",
+      "explanation": "Warm Sites - Not fully equipped, but fundamentals in place. Can be up and running within a few days. Cheaper than hot sites but with a slight delay."
+    },
+    {
+      "question_number": "Q19",
+      "question": "A company requires hard drives to be securely wiped before sending decommissioned systems to recycling. Which of the following best describes this policy?",
+      "options": {
+        "A": "Enumeration",
+        "B": "Sanitization",
+        "C": "Destruction",
+        "D": "Inventory"
+      },
+      "correct_answer": "B",
+      "explanation": "Sanitization is the process of removing sensitive data from a storage device or a system before it is disposed of or reused. Sanitization can be done by using software tools or hardware devices that overwrite the data with random patterns or zeros, making it unrecoverable."
+    },
+    {
+      "question_number": "Q20",
+      "question": "A systems administrator works for a local hospital and needs to ensure patient data is protected and secure. Which of the following data classifications should be used to secure patient data?",
+      "options": {
+        "A": "Private",
+        "B": "Critical",
+        "C": "Sensitive",
+        "D": "Public"
+      },
+      "correct_answer": "C",
+      "explanation": "Patient data in healthcare settings is typically classified as Sensitive due to privacy regulations like HIPAA."
+    },
+    {
+      "question_number": "Q21",
+      "question": "A U.S.-based cloud-hosting provider wants to expand its data centers to new international locations. Which of the following should the hosting provider consider first?",
+      "options": {
+        "A": "Local data protection regulations",
+        "B": "Risks from hackers residing in other countries",
+        "C": "Impacts to existing contractual obligations",
+        "D": "Time zone differences in log correlation"
+      },
+      "correct_answer": "A",
+      "explanation": "Local data protection regulations are the first thing that a cloud-hosting provider should consider before expanding its data centers to new international locations. Different countries or regions may have different data protection regulations, such as GDPR in the EU, PIPEDA in Canada, or CCPA in the US."
+    },
+    {
+      "question_number": "Q22",
+      "question": "Which of the following would be the best way to block unknown programs from executing?",
+      "options": {
+        "A": "Access control list",
+        "B": "Application allow list",
+        "C": "Host-based firewall",
+        "D": "DLP solution"
+      },
+      "correct_answer": "B",
+      "explanation": "An application allow list is a security technique that specifies which applications are permitted to run on a system or a network. An application allow list can block unknown programs from executing by only allowing the execution of programs that are explicitly authorized and verified."
+    },
+    {
+      "question_number": "Q23",
+      "question": "A company hired a consultant to perform an offensive security assessment covering penetration testing and social engineering. Which of the following teams will conduct this assessment activity?",
+      "options": {
+        "A": "White",
+        "B": "Purple",
+        "C": "Blue",
+        "D": "Red"
+      },
+      "correct_answer": "D",
+      "explanation": "A red team is a group of security professionals who perform offensive security assessments covering penetration testing and social engineering. A red team simulates real-world attacks and exploits the vulnerabilities of a target organization."
+    },
+    {
+      "question_number": "Q24",
+      "question": "A software development manager wants to ensure the authenticity of the code created by the company. Which of the following options is the most appropriate?",
+      "options": {
+        "A": "Testing input validation on the user input fields",
+        "B": "Performing code signing on company-developed software",
+        "C": "Performing static code analysis on the software",
+        "D": "Ensuring secure cookies are used"
+      },
+      "correct_answer": "B",
+      "explanation": "Code signing is a technique that uses cryptography to verify the authenticity and integrity of the code created by the company. Code signing involves applying a digital signature to the code using a private key that only the company possesses."
+    },
+    {
+      "question_number": "Q25",
+      "question": "Which of the following can be used to identify potential attacker activities without affecting production servers?",
+      "options": {
+        "A": "Honey pot",
+        "B": "Video surveillance",
+        "C": "Zero Trust",
+        "D": "Geofencing"
+      },
+      "correct_answer": "A",
+      "explanation": "A honey pot is a system or a network that is designed to mimic a real production server and attract potential attackers. A honey pot can be used to identify the attacker's methods, techniques, and objectives without affecting the actual production servers."
+    },
+    {
+      "question_number": "Q26",
+      "question": "During an investigation, an incident response team attempts to understand the source of an incident. Which of the following incident response activities describes this process?",
+      "options": {
+        "A": "Analysis",
+        "B": "Lessons learned",
+        "C": "Detection",
+        "D": "Containment"
+      },
+      "correct_answer": "A",
+      "explanation": "Analysis is the incident response activity that describes the process of understanding the source of an incident. Analysis involves collecting and examining evidence, identifying the root cause, determining the scope and impact, and assessing the threat actor's motives and capabilities."
+    },
+    {
+      "question_number": "Q27",
+      "question": "A security practitioner completes a vulnerability assessment on a company's network and finds several vulnerabilities, which the operations team remediates. Which of the following should be done next?",
+      "options": {
+        "A": "Conduct an audit.",
+        "B": "Initiate a penetration test.",
+        "C": "Rescan the network.",
+        "D": "Submit a report."
+      },
+      "correct_answer": "C",
+      "explanation": "After remediation, rescanning the network is necessary to verify that the vulnerabilities have been properly addressed and no new issues have been introduced."
+    },
+    {
+      "question_number": "Q28",
+      "question": "An administrator was notified that a user logged in remotely after hours and copied large amounts of data to a personal device. Which of the following best describes the user's activity?",
+      "options": {
+        "A": "Penetration testing",
+        "B": "Phishing campaign",
+        "C": "External audit",
+        "D": "Insider threat"
+      },
+      "correct_answer": "D",
+      "explanation": "An insider threat is a security risk that originates from within the organization, such as an employee, contractor, or business partner, who has authorized access to the organization's data and systems."
+    },
+    {
+      "question_number": "Q29",
+      "question": "Which of the following allows for the attribution of messages to individuals?",
+      "options": {
+        "A": "Adaptive identity",
+        "B": "Non-repudiation",
+        "C": "Authentication",
+        "D": "Access logs"
+      },
+      "correct_answer": "B",
+      "explanation": "Non-repudiation is the ability to prove that a message or document was sent or signed by a particular person, and that the person cannot deny sending or signing it."
+    },
+    {
+      "question_number": "Q30",
+      "question": "Which of the following is the best way to consistently determine on a daily basis whether security settings on servers have been modified?",
+      "options": {
+        "A": "Automation",
+        "B": "Compliance checklist",
+        "C": "Attestation",
+        "D": "Manual audit"
+      },
+      "correct_answer": "A",
+      "explanation": "Automation provides consistent, reliable daily checks of security settings without human error or resource constraints."
+    },
+    {
+      "question_number": "Q31",
+      "question": "Which of the following tools can assist with detecting an employee who has accidentally emailed a file containing a customer's PII?",
+      "options": {
+        "A": "SCAP",
+        "B": "Net Flow",
+        "C": "Antivirus",
+        "D": "DLP"
+      },
+      "correct_answer": "D",
+      "explanation": "DLP stands for Data Loss Prevention, which is a tool that can assist with detecting and preventing the unauthorized transmission or leakage of sensitive data, such as a customer's PII."
+    },
+    {
+      "question_number": "Q32",
+      "question": "An organization recently updated its security policy to include the following statement: Regular expressions are included in source code to remove special characters such as $, |, ;, &, `, and ? from variables set by forms in a web application. Which of the following best explains the security technique the organization adopted by making this addition to the policy?",
+      "options": {
+        "A": "Identify embedded keys",
+        "B": "Code debugging",
+        "C": "Input validation",
+        "D": "Static code analysis"
+      },
+      "correct_answer": "C",
+      "explanation": "Input validation is the security technique being adopted by using regular expressions to remove special characters that could be used in injection attacks."
+    },
+    {
+      "question_number": "Q33",
+      "question": "A security analyst and the management team are reviewing the organizational performance of a recent phishing campaign. The user click-through rate exceeded the acceptable risk threshold, and the management team wants to reduce the impact when a user clicks on a link in a phishing message. Which of the following should the analyst do?",
+      "options": {
+        "A": "Place posters around the office to raise awareness of common phishing activities.",
+        "B": "Implement email security filters to prevent phishing emails from being delivered",
+        "C": "Update the EDR policies to block automatic execution of downloaded programs.",
+        "D": "Create additional training for users to recognize the signs of phishing attempts."
+      },
+      "correct_answer": "C",
+      "explanation": "An endpoint detection and response (EDR) system can prevent malicious code from running on the endpoint when a user clicks on a link in a phishing message. Updating the EDR policies to block automatic execution of downloaded programs is a technical control that can mitigate the risk of phishing."
+    },
+    {
+      "question_number": "Q34",
+      "question": "Which of the following has been implemented when a host-based firewall on a legacy Linux system allows connections from only specific internal IP addresses?",
+      "options": {
+        "A": "Compensating control",
+        "B": "Network segmentation",
+        "C": "Transfer of risk",
+        "D": "SNMP traps"
+      },
+      "correct_answer": "A",
+      "explanation": "A compensating control is a security measure that is implemented to mitigate the risk of a vulnerability or a weakness that cannot be resolved by the primary control. A host-based firewall on a legacy Linux system that allows connections from only specific internal IP addresses is an example of a compensating control."
+    },
+    {
+      "question_number": "Q35",
+      "question": "The management team notices that new accounts that are set up manually do not always have correct access or permissions. Which of the following automation techniques should a systems administrator use to streamline account creation?",
+      "options": {
+        "A": "Guard rail script",
+        "B": "Ticketing workflow",
+        "C": "Escalation script",
+        "D": "User provisioning script"
+      },
+      "correct_answer": "D",
+      "explanation": "A user provisioning script is an automation technique that uses a predefined set of instructions or commands to create, modify, or delete user accounts and assign appropriate access or permissions."
+    },
+    {
+      "question_number": "Q36",
+      "question": "A company is planning to set up a SIEM system and assign an analyst to review the logs on a weekly basis. Which of the following types of controls is the company setting up?",
+      "options": {
+        "A": "Corrective",
+        "B": "Preventive",
+        "C": "Detective",
+        "D": "Deterrent"
+      },
+      "correct_answer": "C",
+      "explanation": "A detective control is a type of control that monitors and analyzes the events and activities in a system or a network, and alerts or reports when an incident or a violation occurs. A SIEM system is a tool that collects, correlates, and analyzes logs from various sources."
+    },
+    {
+      "question_number": "Q37",
+      "question": "A systems administrator is looking for a low-cost application-hosting solution that is cloud-based. Which of the following meets these requirements?",
+      "options": {
+        "A": "Serverless framework",
+        "B": "Type 1 hypervisor",
+        "C": "SD-WAN",
+        "D": "SDN"
+      },
+      "correct_answer": "A",
+      "explanation": "Serverless framework is a cloud-based, low-cost solution for hosting applications without managing infrastructure."
+    },
+    {
+      "question_number": "Q38",
+      "question": "A security operations center determines that the malicious activity detected on a server is normal. Which of the following activities describes the act of ignoring detected activity in the future?",
+      "options": {
+        "A": "Tuning",
+        "B": "Aggregating",
+        "C": "Quarantining",
+        "D": "Archiving"
+      },
+      "correct_answer": "A",
+      "explanation": "Tuning is the activity of adjusting the configuration or parameters of a security tool or system to optimize its performance and reduce false positives or false negatives."
+    },
+    {
+      "question_number": "Q39",
+      "question": "A security analyst reviews domain activity logs and notices multiple failed login attempts for user jsmith. Which of the following is the best explanation for what the security analyst has discovered?",
+      "options": {
+        "A": "The user jsmith's account has been locked out.",
+        "B": "A keylogger is installed on jsmith's workstation",
+        "C": "An attacker is attempting to brute force jsmith's account.",
+        "D": "Ransomware has been deployed in the domain."
+      },
+      "correct_answer": "C",
+      "explanation": "Multiple failed login attempts in a short period of time is a strong indicator of a brute force attack where an attacker tries to guess the password."
+    },
+    {
+      "question_number": "Q40",
+      "question": "A company is concerned about weather events causing damage to the server room and downtime. Which of the following should the company consider?",
+      "options": {
+        "A": "Clustering servers",
+        "B": "Geographic dispersion",
+        "C": "Load balancers",
+        "D": "Off-site backups"
+      },
+      "correct_answer": "B",
+      "explanation": "Geographic dispersion is a strategy that involves distributing the servers or data centers across different geographic locations to mitigate the risk of weather events causing damage and downtime."
+    },
+    {
+      "question_number": "Q41",
+      "question": "Which of the following is a primary security concern for a company setting up a BYOD program?",
+      "options": {
+        "A": "End of life",
+        "B": "Buffer overflow",
+        "C": "VM escape",
+        "D": "Jailbreaking"
+      },
+      "correct_answer": "D",
+      "explanation": "Jailbreaking is a primary security concern for BYOD programs as it removes manufacturer restrictions on devices, potentially exposing them to malware and compromising security controls."
+    },
+    {
+      "question_number": "Q42",
+      "question": "A company decided to reduce the cost of its annual cyber insurance policy by removing the coverage for ransomware attacks. Which of the following analysis elements did the company most likely use in making this decision?",
+      "options": {
+        "A": "MTTR",
+        "B": "RTO",
+        "C": "ARO",
+        "D": "MTBF"
+      },
+      "correct_answer": "C",
+      "explanation": "ARO (Annualized Rate of Occurrence) is used to estimate how often a threat might occur annually, which helps in risk assessment and insurance decisions."
+    },
+    {
+      "question_number": "Q43",
+      "question": "Which of the following is the most likely to be included as an element of communication in a security awareness program?",
+      "options": {
+        "A": "Reporting phishing attempts or other suspicious activities",
+        "B": "Detecting insider threats using anomalous behavior recognition",
+        "C": "Verifying information when modifying wire transfer data",
+        "D": "Performing social engineering as part of third-party penetration testing"
+      },
+      "correct_answer": "A",
+      "explanation": "Reporting phishing attempts or other suspicious activities is a key element of security awareness programs to encourage user participation in security."
+    },
+    {
+      "question_number": "Q44",
+      "question": "Hotspot Question: Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.",
+      "options": {
+        "A": "See diagram for matches",
+        "B": "Attack-remediation pairs",
+        "C": "Multiple selections required",
+        "D": "Interactive question"
+      },
+      "correct_answer": "Interactive question - see explanation",
+      "explanation": "This is a hotspot/interactive question that requires matching attacks with their appropriate remediations. The specific answer depends on the diagram provided in the exam."
+    },
+    {
+      "question_number": "Q45",
+      "question": "Hotspot Question: You are a security administrator investigating a potential infection on a network. Click on each host and firewall. Review all logs to determine which host originated the infection and then identify if each remaining host is clean or infected.",
+      "options": {
+        "A": "192.168.10.22 - origin",
+        "B": "192.168.10.37 - clean",
+        "C": "192.168.10.41 - infected",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "192.168.10.22 - origin - it started infection first. 192.168.10.37 - clean - able to get updates and quarantine malicious file. 192.168.10.41 - infected - not able to quarantine infected file. 10.10.9.12 - clean. 10.10.9.18 - infected."
+    },
+    {
+      "question_number": "Q46",
+      "question": "Which of the following vulnerabilities is exploited when an attacker overwrites a register with a malicious address?",
+      "options": {
+        "A": "VM escape",
+        "B": "SQL injection",
+        "C": "Buffer overflow",
+        "D": "Race condition"
+      },
+      "correct_answer": "C",
+      "explanation": "A buffer overflow is a vulnerability that occurs when an application writes more data to a memory buffer than it can hold, causing the excess data to overwrite adjacent memory locations including registers."
+    },
+    {
+      "question_number": "Q47",
+      "question": "Which of the following would be the best way to handle a critical business application that is running on a legacy server?",
+      "options": {
+        "A": "Segmentation",
+        "B": "Isolation",
+        "C": "Hardening",
+        "D": "Decommissioning"
+      },
+      "correct_answer": "A",
+      "explanation": "Segmentation would limit the ability of an attacker to pivot from the vulnerable server to the rest of the network while still allowing the critical application to function."
+    },
+    {
+      "question_number": "Q48",
+      "question": "Which of the following describes the process of concealing code or text inside a graphical image?",
+      "options": {
+        "A": "Symmetric encryption",
+        "B": "Hashing",
+        "C": "Data masking",
+        "D": "Steganography"
+      },
+      "correct_answer": "D",
+      "explanation": "Steganography is the process of hiding information within another medium, such as concealing code or text inside a graphical image."
+    },
+    {
+      "question_number": "Q49",
+      "question": "After a company was compromised, customers initiated a lawsuit. The company's attorneys have requested that the security team initiate a legal hold in response to the lawsuit. Which of the following describes the action the security team will most likely be required to take?",
+      "options": {
+        "A": "Retain the emails between the security team and affected customers for 30 days.",
+        "B": "Retain any communications related to the security breach until further notice.",
+        "C": "Retain any communications between security members during the breach response.",
+        "D": "Retain all emails from the company to affected customers for an indefinite period of time."
+      },
+      "correct_answer": "B",
+      "explanation": "A legal hold requires preserving all relevant communications and data related to the security breach until the legal matter is resolved."
+    },
+    {
+      "question_number": "Q50",
+      "question": "A network manager wants to protect the company's VPN by implementing multifactor authentication that uses: Something you know, Something you have, Something you are. Which of the following would accomplish the manager's goal?",
+      "options": {
+        "A": "Domain name, PKI, GeoIP lookup",
+        "B": "VPN IP address, company ID, facial structure",
+        "C": "Password, authentication token, thumbprint",
+        "D": "Company URL, TLS certificate, home address"
+      },
+      "correct_answer": "C",
+      "explanation": "Password (something you know), authentication token (something you have), and thumbprint (something you are) represent the three factors of authentication."
+    },
+    {
+      "question_number": "Q51",
+      "question": "A security manager created new documentation to use in response to various types of security incidents. Which of the following is the next step the manager should take?",
+      "options": {
+        "A": "Set the maximum data retention policy.",
+        "B": "Securely store the documents on an air-gapped network.",
+        "C": "Review the documents' data classification policy.",
+        "D": "Conduct a tabletop exercise with the team."
+      },
+      "correct_answer": "D",
+      "explanation": "A tabletop exercise is a simulated scenario that tests the effectiveness of a security incident response plan and validates the documentation."
+    },
+    {
+      "question_number": "Q52",
+      "question": "Users at a company are reporting they are unable to access the URL for a new retail website because it is flagged as gambling and is being blocked. Which of the following changes would allow users to access the site?",
+      "options": {
+        "A": "Creating a firewall rule to allow HTTPS traffic",
+        "B": "Configuring the IPS to allow shopping",
+        "C": "Tuning the DLP rule that detects credit card data",
+        "D": "Updating the categorization in the content filter"
+      },
+      "correct_answer": "D",
+      "explanation": "The content filter's categorization needs to be updated to reflect the correct category of the website (shopping/retail instead of gambling)."
+    },
+    {
+      "question_number": "Q53",
+      "question": "An administrator discovers that some files on a database server were recently encrypted. The administrator sees from the security logs that the data was last accessed by a domain user. Which of the following best describes the type of attack that occurred?",
+      "options": {
+        "A": "Insider threat",
+        "B": "Social engineering",
+        "C": "Watering-hole",
+        "D": "Unauthorized attacker"
+      },
+      "correct_answer": "A",
+      "explanation": "An insider threat is a type of attack that originates from someone who has legitimate access to an organization's network, systems, or data."
+    },
+    {
+      "question_number": "Q54",
+      "question": "Which of the following automation use cases would best enhance the security posture of an organization by rapidly updating permissions when employees leave a company?",
+      "options": {
+        "A": "Provisioning resources",
+        "B": "Disabling access",
+        "C": "Reviewing change approvals",
+        "D": "Escalating permission requests"
+      },
+      "correct_answer": "B",
+      "explanation": "Disabling access is an automation use case that rapidly updates permissions when employees leave, preventing unauthorized access by former employees."
+    },
+    {
+      "question_number": "Q55",
+      "question": "A company would like to provide employees with computers that do not have access to the internet in order to prevent information from being leaked to an online forum. Which of the following would be best for the systems administrator to implement?",
+      "options": {
+        "A": "Air gap",
+        "B": "Jump server",
+        "C": "Logical segmentation",
+        "D": "Virtualization"
+      },
+      "correct_answer": "A",
+      "explanation": "An air gap physically isolates the computer or network from any outside connections, including the internet, ensuring that data cannot be transferred to or from the system."
+    },
+    {
+      "question_number": "Q56",
+      "question": "Which of the following methods to secure credit card data is best to use when a requirement is to see only the last four numbers on a credit card?",
+      "options": {
+        "A": "Encryption",
+        "B": "Hashing",
+        "C": "Masking",
+        "D": "Tokenization"
+      },
+      "correct_answer": "C",
+      "explanation": "Masking involves replacing some or all of the digits with symbols while leaving some of the original digits visible, perfect for showing only the last four digits."
+    },
+    {
+      "question_number": "Q57",
+      "question": "An administrator finds that all user workstations and servers are displaying a message that is associated with files containing an extension of .ryk. Which of the following types of infections is present on the systems?",
+      "options": {
+        "A": "Virus",
+        "B": "Trojan",
+        "C": "Spyware",
+        "D": "Ransomware"
+      },
+      "correct_answer": "D",
+      "explanation": "Ransomware encrypts files and displays messages demanding payment. The .ryk extension is associated with Ryuk ransomware."
+    },
+    {
+      "question_number": "Q58",
+      "question": "A healthcare organization wants to provide a web application that allows individuals to digitally report health emergencies. Which of the following is the most important consideration during development?",
+      "options": {
+        "A": "Scalability",
+        "B": "Availability",
+        "C": "Cost",
+        "D": "Ease of deployment"
+      },
+      "correct_answer": "B",
+      "explanation": "Availability is the most important consideration for emergency reporting systems, as any downtime could have serious consequences for health and safety."
+    },
+    {
+      "question_number": "Q59",
+      "question": "Which of the following is the best reason to complete an audit in a banking environment?",
+      "options": {
+        "A": "Regulatory requirement",
+        "B": "Organizational change",
+        "C": "Self-assessment requirement",
+        "D": "Service-level requirement"
+      },
+      "correct_answer": "A",
+      "explanation": "In a banking environment, audits are often required by regulators to ensure compliance with laws, standards, and policies related to security, privacy, and financial reporting."
+    },
+    {
+      "question_number": "Q60",
+      "question": "A security administrator is deploying a DLP solution to prevent the exfiltration of sensitive customer data. Which of the following should the administrator do first?",
+      "options": {
+        "A": "Block access to cloud storage websites.",
+        "B": "Create a rule to block outgoing email attachments.",
+        "C": "Apply classifications to the data.",
+        "D": "Remove all user permissions from shares on the file server."
+      },
+      "correct_answer": "C",
+      "explanation": "Data classification is the first step in a DLP solution, as it helps to identify what data needs to be protected and how."
+    },
+    {
+      "question_number": "Q61",
+      "question": "Which of the following describes a security alerting and monitoring tool that collects system, application, and network logs from multiple sources in a centralized system?",
+      "options": {
+        "A": "SIEM",
+        "B": "DLP",
+        "C": "IDS",
+        "D": "SNMP"
+      },
+      "correct_answer": "A",
+      "explanation": "SIEM (Security Information and Event Management) collects, analyzes, and correlates logs from multiple sources in a centralized system for security monitoring and alerting."
+    },
+    {
+      "question_number": "Q62",
+      "question": "Which of the following are cases in which an engineer should recommend the decommissioning of a network device? (Select two).",
+      "options": {
+        "A": "The device has been moved from a production environment to a test environment.",
+        "B": "The device is configured to use cleartext passwords.",
+        "C": "The device is moved to an isolated segment on the enterprise network.",
+        "D": "The device is moved to a different location in the enterprise.",
+        "E": "The device's encryption level cannot meet organizational standards.",
+        "F": "The device is unable to receive authorized updates."
+      },
+      "correct_answer": ["B", "E"],
+      "explanation": "Devices using cleartext passwords pose major security risks, and devices unable to meet encryption standards compromise data confidentiality."
+    },
+    {
+      "question_number": "Q63",
+      "question": "An administrator assists the legal and compliance team with ensuring information about customer transactions is archived for the proper time period. Which of the following data policies is the administrator carrying out?",
+      "options": {
+        "A": "Compromise",
+        "B": "Retention",
+        "C": "Analysis",
+        "D": "Transfer",
+        "E": "Inventory"
+      },
+      "correct_answer": "B",
+      "explanation": "A data retention policy defines how long data should be stored and when it should be deleted or archived to comply with legal and regulatory requirements."
+    },
+    {
+      "question_number": "Q64",
+      "question": "A systems administrator is working on a solution with the following requirements: Provide a secure zone, Enforce a company-wide access control policy, Reduce the scope of threats. Which of the following is the systems administrator setting up?",
+      "options": {
+        "A": "Zero Trust",
+        "B": "AAA",
+        "C": "Non-repudiation",
+        "D": "CIA"
+      },
+      "correct_answer": "A",
+      "explanation": "Zero Trust is a security model that provides secure zones, enforces access control policies, and reduces threat scope by requiring continuous verification."
+    },
+    {
+      "question_number": "Q65",
+      "question": "A security administrator needs a method to secure data in an environment that includes some form of checks so that the administrator can track any changes. Which of the following should the administrator set up to achieve this goal?",
+      "options": {
+        "A": "SPF",
+        "B": "GPO",
+        "C": "NAC",
+        "D": "FIM"
+      },
+      "correct_answer": "D",
+      "explanation": "FIM (File Integrity Monitoring) detects any changes or modifications to files, directories, or registry keys, allowing administrators to track unauthorized changes."
+    },
+    {
+      "question_number": "Q66",
+      "question": "Which of the following is the phase in the incident response process when a security analyst reviews roles and responsibilities?",
+      "options": {
+        "A": "Preparation",
+        "B": "Recovery",
+        "C": "Lessons learned",
+        "D": "Analysis"
+      },
+      "correct_answer": "A",
+      "explanation": "Preparation is the phase when security analysts review roles and responsibilities, as well as policies and procedures for handling incidents."
+    },
+    {
+      "question_number": "Q67",
+      "question": "A company is discarding a classified storage array and hires an outside vendor to complete the disposal. Which of the following should the company request from the vendor?",
+      "options": {
+        "A": "Certification",
+        "B": "Inventory list",
+        "C": "Classification",
+        "D": "Proof of ownership"
+      },
+      "correct_answer": "A",
+      "explanation": "The company should request a certification that confirms the storage array has been disposed of securely and in compliance with the company's policies."
+    },
+    {
+      "question_number": "Q68",
+      "question": "Which of the following would be the best ways to ensure only authorized personnel can access a secure facility? (Select two).",
+      "options": {
+        "A": "Fencing",
+        "B": "Video surveillance",
+        "C": "Badge access",
+        "D": "Access control vestibule",
+        "E": "Sign-in sheet",
+        "F": "Sensor"
+      },
+      "correct_answer": ["C", "D"],
+      "explanation": "Badge access and access control vestibules are effective for ensuring only authorized personnel can access secure facilities through authentication and physical barriers."
+    },
+    {
+      "question_number": "Q69",
+      "question": "A company's marketing department collects, modifies, and stores sensitive customer data. The infrastructure team is responsible for securing the data while in transit and at rest. Which of the following data roles describes the customer?",
+      "options": {
+        "A": "Processor",
+        "B": "Custodian",
+        "C": "Subject",
+        "D": "Owner"
+      },
+      "correct_answer": "C",
+      "explanation": "The customer is the data subject - the individual to whom the personal data relates."
+    },
+    {
+      "question_number": "Q70",
+      "question": "Malware spread across a company's network after an employee visited a compromised industry blog. Which of the following best describes this type of attack?",
+      "options": {
+        "A": "Impersonation",
+        "B": "Disinformation",
+        "C": "Watering-hole",
+        "D": "Smishing"
+      },
+      "correct_answer": "C",
+      "explanation": "A watering-hole attack targets groups of users by infecting websites that they commonly visit, in this case a compromised industry blog."
+    },
+    {
+      "question_number": "Q71",
+      "question": "After a recent ransomware attack on a company's system, an administrator reviewed the log files. Which of the following control types did the administrator use?",
+      "options": {
+        "A": "Compensating",
+        "B": "Detective",
+        "C": "Preventive",
+        "D": "Corrective"
+      },
+      "correct_answer": "B",
+      "explanation": "Detective controls are security measures designed to identify and monitor malicious activity. Reviewing log files is a detective control used to discover what happened during the attack."
+    },
+    {
+      "question_number": "Q72",
+      "question": "Which of the following agreement types defines the time frame in which a vendor needs to respond?",
+      "options": {
+        "A": "SOW",
+        "B": "SLA",
+        "C": "MOA",
+        "D": "MOU"
+      },
+      "correct_answer": "B",
+      "explanation": "A Service Level Agreement (SLA) defines expectations and responsibilities including response time frames between a service provider and customer."
+    },
+    {
+      "question_number": "Q73",
+      "question": "A Chief Information Security Officer wants to monitor the company's servers for SQLi attacks and allow for comprehensive investigations if an attack occurs. The company uses SSL decryption to allow traffic monitoring. Which of the following strategies would best accomplish this goal?",
+      "options": {
+        "A": "Logging all NetFlow traffic into a SIEM",
+        "B": "Deploying network traffic sensors on the same subnet as the servers",
+        "C": "Logging endpoint and OS-specific security logs",
+        "D": "Enabling full packet capture for traffic entering and exiting the servers"
+      },
+      "correct_answer": "D",
+      "explanation": "Full packet capture records all network traffic, providing complete content and context needed for detailed SQLi attack analysis and investigation."
+    },
+    {
+      "question_number": "Q74",
+      "question": "A client demands at least 99.99% uptime from a service provider's hosted security services. Which of the following documents includes the information the service provider should return to the client?",
+      "options": {
+        "A": "MOA",
+        "B": "SOW",
+        "C": "MOU",
+        "D": "SLA"
+      },
+      "correct_answer": "D",
+      "explanation": "A Service Level Agreement (SLA) defines the level of service expected, including uptime requirements like 99.99% availability."
+    },
+    {
+      "question_number": "Q75",
+      "question": "A company is adding a clause to its AUP that states employees are not allowed to modify the operating system on mobile devices. Which of the following vulnerabilities is the organization addressing?",
+      "options": {
+        "A": "Cross-site scripting",
+        "B": "Buffer overflow",
+        "C": "Jailbreaking",
+        "D": "Side loading"
+      },
+      "correct_answer": "C",
+      "explanation": "Jailbreaking is the process of removing manufacturer restrictions on mobile devices, exposing them to security risks. The AUP clause addresses this vulnerability."
+    },
+    {
+      "question_number": "Q76",
+      "question": "Which of the following practices would be best to prevent an insider from introducing malicious code into a company's development process?",
+      "options": {
+        "A": "Code scanning for vulnerabilities",
+        "B": "Open-source component usage",
+        "C": "Quality assurance testing",
+        "D": "Peer review and approval"
+      },
+      "correct_answer": "D",
+      "explanation": "Peer review and approval involves having other developers review code before deployment, helping detect and prevent malicious code insertion."
+    },
+    {
+      "question_number": "Q77",
+      "question": "A systems administrator is creating a script that would save time and prevent human error when performing account creation for a large number of end users. Which of the following would be a good use case for this task?",
+      "options": {
+        "A": "Off-the-shelf software",
+        "B": "Orchestration",
+        "C": "Baseline",
+        "D": "Policy enforcement"
+      },
+      "correct_answer": "B",
+      "explanation": "Orchestration is the process of automating multiple tasks across different systems, perfect for automating account creation for many users."
+    },
+    {
+      "question_number": "Q78",
+      "question": "After an audit, an administrator discovers all users have access to confidential data on a file server. Which of the following should the administrator use to restrict access to the data quickly?",
+      "options": {
+        "A": "Group Policy",
+        "B": "Content filtering",
+        "C": "Data loss prevention",
+        "D": "Access control lists"
+      },
+      "correct_answer": "D",
+      "explanation": "Access control lists (ACLs) can quickly modify access rights to restrict which users can access confidential data on the file server."
+    },
+    {
+      "question_number": "Q79",
+      "question": "A Chief Information Security Officer (CISO) wants to explicitly raise awareness about the increase of ransomware-as-a-service in a report to the management team. Which of the following best describes the threat actor in the CISO's report?",
+      "options": {
+        "A": "Insider threat",
+        "B": "Hacktivist",
+        "C": "Nation-state",
+        "D": "Organized crime"
+      },
+      "correct_answer": "D",
+      "explanation": "Ransomware-as-a-service is typically operated by organized crime groups who sell or rent ransomware tools for profit."
+    },
+    {
+      "question_number": "Q80",
+      "question": "A small business uses kiosks on the sales floor to display product information for customers. A security team discovers the kiosks use end-of-life operating systems. Which of the following is the security team most likely to document as a security implication of the current architecture?",
+      "options": {
+        "A": "Patch availability",
+        "B": "Product software compatibility",
+        "C": "Ease of recovery",
+        "D": "Cost of replacement"
+      },
+      "correct_answer": "A",
+      "explanation": "End-of-life operating systems no longer receive security patches, making them vulnerable to exploits and attacks."
+    },
+    {
+      "question_number": "Q81",
+      "question": "A company is developing a critical system for the government and storing project information on a fileshare. Which of the following describes how this data will most likely be classified? (Select two).",
+      "options": {
+        "A": "Private",
+        "B": "Confidential",
+        "C": "Public",
+        "D": "Operational",
+        "E": "Urgent",
+        "F": "Restricted"
+      },
+      "correct_answer": ["B", "F"],
+      "explanation": "Government critical system data is typically classified as Confidential and Restricted due to national security implications."
+    },
+    {
+      "question_number": "Q82",
+      "question": "After reviewing a vulnerability scanning report, a security analyst performs a test and discovers the vulnerability is a false positive. Which of the following would the security analyst conclude for this reported vulnerability?",
+      "options": {
+        "A": "It is a false positive.",
+        "B": "A rescan is required.",
+        "C": "It is considered noise.",
+        "D": "Compensating controls exist."
+      },
+      "correct_answer": "D",
+      "explanation": "The test showed compensating controls are in place that mitigate the vulnerability, making it a false positive in the context of actual risk."
+    },
+    {
+      "question_number": "Q83",
+      "question": "A security consultant needs secure, remote access to a client environment. Which of the following should the security consultant most likely use to gain access?",
+      "options": {
+        "A": "EAP",
+        "B": "DHCP",
+        "C": "IPSec",
+        "D": "NAT"
+      },
+      "correct_answer": "C",
+      "explanation": "IPSec provides secure communication over IP networks through encryption and authentication, ideal for secure remote access."
+    },
+    {
+      "question_number": "Q84",
+      "question": "Which of the following best practices gives administrators a set period to perform changes to an operational system to ensure availability and minimize business impacts?",
+      "options": {
+        "A": "Impact analysis",
+        "B": "Scheduled downtime",
+        "C": "Backout plan",
+        "D": "Change management boards"
+      },
+      "correct_answer": "B",
+      "explanation": "Scheduled downtime is a planned period for maintenance and changes, minimizing business impact while ensuring system availability."
+    },
+    {
+      "question_number": "Q85",
+      "question": "Which of the following actions could a security engineer take to ensure workstations and servers are properly monitored for unauthorized changes and software?",
+      "options": {
+        "A": "Configure all systems to log scheduled tasks.",
+        "B": "Collect and monitor all traffic exiting the network.",
+        "C": "Block traffic based on known malicious signatures.",
+        "D": "Install endpoint management software on all systems."
+      },
+      "correct_answer": "D",
+      "explanation": "Endpoint management software allows monitoring and control of workstations and servers, detecting unauthorized changes and software installations."
+    },
+    {
+      "question_number": "Q86",
+      "question": "After a security awareness training session, a user called the IT help desk and reported a suspicious call. The suspicious caller stated that the Chief Financial Officer wanted credit card information in order to close an invoice. Which of the following topics did the user recognize from the training?",
+      "options": {
+        "A": "Insider threat",
+        "B": "Email phishing",
+        "C": "Social engineering",
+        "D": "Executive whaling"
+      },
+      "correct_answer": "C",
+      "explanation": "Social engineering involves manipulating people into divulging confidential information. The user recognized this attempt from the training."
+    },
+    {
+      "question_number": "Q87",
+      "question": "Which of the following exercises should an organization use to improve its incident response process?",
+      "options": {
+        "A": "Tabletop",
+        "B": "Replication",
+        "C": "Failover",
+        "D": "Recovery"
+      },
+      "correct_answer": "A",
+      "explanation": "A tabletop exercise is a discussion-based exercise that tests incident response plans and procedures without actual system impacts."
+    },
+    {
+      "question_number": "Q88",
+      "question": "Which of the following is used to validate a certificate when it is presented to a user?",
+      "options": {
+        "A": "OCSP",
+        "B": "CSR",
+        "C": "CA",
+        "D": "CRC"
+      },
+      "correct_answer": "A",
+      "explanation": "OCSP (Online Certificate Status Protocol) allows applications to check the revocation status of a certificate in real-time."
+    },
+    {
+      "question_number": "Q89",
+      "question": "A newly identified network access vulnerability has been found in the OS of legacy IoT devices. Which of the following would best mitigate this vulnerability quickly?",
+      "options": {
+        "A": "Insurance",
+        "B": "Patching",
+        "C": "Segmentation",
+        "D": "Replacement"
+      },
+      "correct_answer": "C",
+      "explanation": "Segmentation can quickly isolate vulnerable IoT devices from other network resources, reducing attack surface and impact."
+    },
+    {
+      "question_number": "Q90",
+      "question": "A bank insists all of its vendors must prevent data loss on stolen laptops. Which of the following strategies is the bank requiring?",
+      "options": {
+        "A": "Encryption at rest",
+        "B": "Masking",
+        "C": "Data classification",
+        "D": "Permission restrictions"
+      },
+      "correct_answer": "A",
+      "explanation": "Encryption at rest protects data stored on devices by making it unreadable without the decryption key, preventing data loss from stolen laptops."
+    },
+    {
+      "question_number": "Q91",
+      "question": "Which of the following would be best suited for constantly changing environments?",
+      "options": {
+        "A": "RTOS",
+        "B": "Containers",
+        "C": "Embedded systems",
+        "D": "SCADA"
+      },
+      "correct_answer": "B",
+      "explanation": "Containers are lightweight, portable, scalable, and easy to deploy and update, making them ideal for constantly changing environments."
+    },
+    {
+      "question_number": "Q92",
+      "question": "A security analyst scans a company's public network and discovers a host is running a remote desktop that can be used to access the production network. Which of the following changes should the security analyst recommend?",
+      "options": {
+        "A": "Changing the remote desktop port to a non-standard number",
+        "B": "Setting up a VPN and placing the jump server inside the firewall",
+        "C": "Using a proxy for web connections from the remote desktop server",
+        "D": "Connecting the remote server to the domain and increasing the password length"
+      },
+      "correct_answer": "B",
+      "explanation": "Setting up a VPN and placing the jump server inside the firewall provides secure access while removing direct exposure to the public network."
+    },
+    {
+      "question_number": "Q93",
+      "question": "Which of the following involves an attempt to take advantage of database misconfigurations?",
+      "options": {
+        "A": "Buffer overflow",
+        "B": "SQL injection",
+        "C": "VM escape",
+        "D": "Memory injection"
+      },
+      "correct_answer": "B",
+      "explanation": "SQL injection exploits database misconfigurations or flaws in application code to execute unauthorized database commands."
+    },
+    {
+      "question_number": "Q94",
+      "question": "An organization would like to store customer data on a separate part of the network that is not accessible to users on the main corporate network. Which of the following should the administrator use to accomplish this goal?",
+      "options": {
+        "A": "Segmentation",
+        "B": "Isolation",
+        "C": "Patching",
+        "D": "Encryption"
+      },
+      "correct_answer": "A",
+      "explanation": "Segmentation divides the network into smaller isolated segments, allowing customer data to be stored separately from the main network."
+    },
+    {
+      "question_number": "Q95",
+      "question": "Which of the following is used to quantitatively measure the criticality of a vulnerability?",
+      "options": {
+        "A": "CVE",
+        "B": "CVSS",
+        "C": "CIA",
+        "D": "CERT"
+      },
+      "correct_answer": "B",
+      "explanation": "CVSS (Common Vulnerability Scoring System) provides standardized numerical scores to assess vulnerability severity and risk."
+    },
+    {
+      "question_number": "Q96",
+      "question": "A technician is opening ports on a firewall for a new system being deployed and supported by a SaaS provider. Which of the following is a risk in the new system?",
+      "options": {
+        "A": "Default credentials",
+        "B": "Non-segmented network",
+        "C": "Supply chain vendor",
+        "D": "Vulnerable software"
+      },
+      "correct_answer": "D",
+      "explanation": "Opening firewall ports for SaaS applications may expose vulnerable software to external threats."
+    },
+    {
+      "question_number": "Q97",
+      "question": "Which of the following security concepts is the best reason for permissions on a human resources fileshare to follow the principle of least privilege?",
+      "options": {
+        "A": "Integrity",
+        "B": "Availability",
+        "C": "Confidentiality",
+        "D": "Non-repudiation"
+      },
+      "correct_answer": "C",
+      "explanation": "Confidentiality ensures sensitive HR data is only accessible to authorized users, which least privilege helps enforce."
+    },
+    {
+      "question_number": "Q98",
+      "question": "Security controls in a data center are being reviewed to ensure data is properly protected and that human life considerations are included. Which of the following best describes how the controls should be set up?",
+      "options": {
+        "A": "Remote access points should fail closed.",
+        "B": "Logging controls should fail open.",
+        "C": "Safety controls should fail open.",
+        "D": "Logical security controls should fail closed."
+      },
+      "correct_answer": "C",
+      "explanation": "Safety controls should fail open to protect human life, ensuring emergency exits remain accessible during failures."
+    },
+    {
+      "question_number": "Q99",
+      "question": "Which of the following is the most common data loss path for an air-gapped network?",
+      "options": {
+        "A": "Bastion host",
+        "B": "Unsecured Bluetooth",
+        "C": "Unpatched OS",
+        "D": "Removable devices"
+      },
+      "correct_answer": "D",
+      "explanation": "Removable devices like USB drives are the most common way data can be transferred to/from air-gapped networks."
+    },
+    {
+      "question_number": "Q100",
+      "question": "Which of the following can best protect against an employee inadvertently installing malware on a company system?",
+      "options": {
+        "A": "Host-based firewall",
+        "B": "System isolation",
+        "C": "Least privilege",
+        "D": "Application allow list"
+      },
+      "correct_answer": "D",
+      "explanation": "An application allow list prevents execution of any unauthorized software, including malware inadvertently installed by employees."
+    },
+    {
+      "question_number": "Q101",
+      "question": "An organization is struggling with scaling issues on its VPN concentrator and internet circuit due to remote work. The organization is looking for a software solution that will allow it to reduce traffic on the VPN and internet circuit, while still providing encrypted tunnel access to the data center and monitoring of remote employee internet traffic. Which of the following will help achieve these objectives?",
+      "options": {
+        "A": "Deploying a SASE solution to remote employees",
+        "B": "Building a load-balanced VPN solution with redundant internet",
+        "C": "Purchasing a low-cost SD-WAN solution for VPN traffic",
+        "D": "Using a cloud provider to create additional VPN concentrators"
+      },
+      "correct_answer": "A",
+      "explanation": "SASE (Secure Access Service Edge) combines network and security functions in the cloud, reducing VPN traffic while providing secure access."
+    },
+    {
+      "question_number": "Q102",
+      "question": "A company's end users are reporting that they are unable to reach external websites. After reviewing the performance data for the DNS servers, the analyst discovers that the CPU, disk, and memory usage are minimal, but the network interface is flooded with inbound traffic. Network logs show only a small number of DNS queries sent to this server. Which of the following best describes what the security analyst is seeing?",
+      "options": {
+        "A": "Concurrent session usage",
+        "B": "Secure DNS cryptographic downgrade",
+        "C": "On-path resource consumption",
+        "D": "Reflected denial of service"
+      },
+      "correct_answer": "D",
+      "explanation": "A reflected DoS attack uses spoofed source IPs to send requests that generate large responses, flooding the victim's network interface."
+    },
+    {
+      "question_number": "Q103",
+      "question": "A systems administrator wants to prevent users from being able to access data based on their responsibilities. The administrator also wants to apply the required access structure via a simplified format. Which of the following should the administrator apply to the site recovery resource group?",
+      "options": {
+        "A": "RBAC",
+        "B": "ACL",
+        "C": "SAML",
+        "D": "GPO"
+      },
+      "correct_answer": "A",
+      "explanation": "RBAC (Role-Based Access Control) simplifies permission management by assigning access rights based on roles rather than individual users."
+    },
+    {
+      "question_number": "Q104",
+      "question": "One of a company's vendors sent an analyst a security bulletin that recommends a BIOS update. Which of the following vulnerability types is being addressed by the patch?",
+      "options": {
+        "A": "Virtualization",
+        "B": "Firmware",
+        "C": "Application",
+        "D": "Operating system"
+      },
+      "correct_answer": "B",
+      "explanation": "BIOS is firmware that controls basic hardware functions. A BIOS update addresses firmware vulnerabilities."
+    },
+    {
+      "question_number": "Q105",
+      "question": "A security analyst locates a potentially malicious video file on a server and needs to identify both the creation date and the file's creator. Which of the following actions would most likely give the security analyst the information required?",
+      "options": {
+        "A": "Obtain the file's SHA-256 hash.",
+        "B": "Use hexdump on the file's contents.",
+        "C": "Check endpoint logs.",
+        "D": "Query the file's metadata."
+      },
+      "correct_answer": "D",
+      "explanation": "Metadata contains information about files including creation date, author, and other attributes useful for forensic analysis."
+    },
+    {
+      "question_number": "Q106",
+      "question": "An enterprise security team is researching a new security architecture to better protect the company's networks and applications against the latest cyberthreats. The company has a fully remote workforce. The solution should be highly redundant and enable users to connect to a VPN with an integrated, software-based firewall. Which of the following solutions meets these requirements?",
+      "options": {
+        "A": "IPS",
+        "B": "SIEM",
+        "C": "SASE",
+        "D": "CASB"
+      },
+      "correct_answer": "C",
+      "explanation": "SASE provides cloud-based security with integrated VPN and firewall capabilities, perfect for remote workforce protection."
+    },
+    {
+      "question_number": "Q107",
+      "question": "A security engineer is working to address the growing risks that shadow IT services are introducing to the organization. The organization has taken a cloud-first approach and does not have an on-premises IT infrastructure. Which of the following would best secure the organization?",
+      "options": {
+        "A": "Upgrading to a next-generation firewall",
+        "B": "Deploying an appropriate in-line CASB solution",
+        "C": "Conducting user training on software policies",
+        "D": "Configuring double key encryption in SaaS platforms"
+      },
+      "correct_answer": "B",
+      "explanation": "A CASB (Cloud Access Security Broker) provides visibility and control over shadow IT services in cloud environments."
+    },
+    {
+      "question_number": "Q108",
+      "question": "An enterprise has been experiencing attacks focused on exploiting vulnerabilities in older browser versions with well-known exploits. Which of the following security solutions should be configured to best provide the ability to monitor and block these known signature-based attacks?",
+      "options": {
+        "A": "ACL",
+        "B": "DLP",
+        "C": "IDS",
+        "D": "IPS"
+      },
+      "correct_answer": "D",
+      "explanation": "An IPS (Intrusion Prevention System) can monitor and actively block known signature-based attacks in real-time."
+    },
+    {
+      "question_number": "Q109",
+      "question": "During the onboarding process, an employee needs to create a password for an intranet account. The password must include ten characters, numbers, and letters, and two special characters. Once the password is created, the company will grant the employee access to other company-owned websites based on the intranet profile. Which of the following access management concepts is the company most likely using? (Select two).",
+      "options": {
+        "A": "Federation",
+        "B": "Identity proofing",
+        "C": "Password complexity",
+        "D": "Default password changes",
+        "E": "Password manager",
+        "F": "Open authentication"
+      },
+      "correct_answer": ["A", "C"],
+      "explanation": "Federation allows single sign-on across multiple sites, and password complexity requirements ensure strong authentication."
+    },
+    {
+      "question_number": "Q110",
+      "question": "An administrator is reviewing a single server's security logs and discovers multiple failed login attempts. Which of the following best describes the action captured in this log file?",
+      "options": {
+        "A": "Brute-force attack",
+        "B": "Privilege escalation",
+        "C": "Failed password audit",
+        "D": "Forgotten password by the user"
+      },
+      "correct_answer": "A",
+      "explanation": "Multiple failed login attempts in a short time period indicate a brute-force attack attempting to guess passwords."
+    },
+    {
+      "question_number": "Q111",
+      "question": "A security engineer is implementing FDE for all laptops in an organization. Which of the following are the most important for the engineer to consider as part of the planning process? (Select two).",
+      "options": {
+        "A": "Key escrow",
+        "B": "TPM presence",
+        "C": "Digital signatures",
+        "D": "Data tokenization",
+        "E": "Public key management",
+        "F": "Certificate authority linking"
+      },
+      "correct_answer": ["A", "B"],
+      "explanation": "Key escrow ensures recovery of encrypted data if passwords are lost, and TPM presence enhances encryption security and performance."
+    },
+    {
+      "question_number": "Q112",
+      "question": "A hacker gained access to a system via a phishing attempt that was a direct result of a user clicking a suspicious link. The link laterally deployed ransomware, which laid dormant for multiple weeks, across the network. Which of the following would have mitigated the spread?",
+      "options": {
+        "A": "IPS",
+        "B": "IDS",
+        "C": "WAF",
+        "D": "UAT"
+      },
+      "correct_answer": "A",
+      "explanation": "An IPS (Intrusion Prevention System) could have blocked the lateral movement and communication of the ransomware."
+    },
+    {
+      "question_number": "Q113",
+      "question": "Which of the following threat actors is the most likely to be hired by a foreign government to attack critical systems located in other countries?",
+      "options": {
+        "A": "Hacktivist",
+        "B": "Whistleblower",
+        "C": "Organized crime",
+        "D": "Unskilled attacker"
+      },
+      "correct_answer": "C",
+      "explanation": "Organized crime groups have the resources and skills to conduct sophisticated attacks and may be hired by foreign governments."
+    },
+    {
+      "question_number": "Q114",
+      "question": "Which of the following is used to add extra complexity before using a one-way data transformation algorithm?",
+      "options": {
+        "A": "Key stretching",
+        "B": "Data masking",
+        "C": "Steganography",
+        "D": "Salting"
+      },
+      "correct_answer": "D",
+      "explanation": "Salting adds random data to passwords before hashing, increasing complexity and preventing rainbow table attacks."
+    },
+    {
+      "question_number": "Q115",
+      "question": "An employee clicked a link in an email from a payment website that asked the employee to update contact information. The employee entered the log-in information but received a 'page not found' error message. Which of the following types of social engineering attacks occurred?",
+      "options": {
+        "A": "Brand impersonation",
+        "B": "Pretexting",
+        "C": "Typosquatting",
+        "D": "Phishing"
+      },
+      "correct_answer": "D",
+      "explanation": "Phishing involves fraudulent emails that trick recipients into providing sensitive information through fake websites."
+    },
+    {
+      "question_number": "Q116",
+      "question": "An enterprise is trying to limit outbound DNS traffic originating from its internal network. Outbound DNS requests will only be allowed from one device with the IP address 10.50.10.25. Which of the following firewall ACLs will accomplish this goal?",
+      "options": {
+        "A": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53\nAccess list outbound deny 10.50.10.25 32 0.0.0.0/0 port 53",
+        "B": "Access list outbound permit 0.0.0.0/0 10.50.10.25 32 port 53\nAccess list outbound deny 0.0.0.0 0 0.0.0.0/0 port 53",
+        "C": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53\nAccess list outbound deny 0.0.0.0/0 10.50.10.25 32 port 53",
+        "D": "Access list outbound permit 10.50.10.25 32 0.0.0.0/0 port 53\nAccess list outbound deny 0.0.0.0.0.0.0.0.0/0 port 53"
+      },
+      "correct_answer": "D",
+      "explanation": "This ACL allows only the device at 10.50.10.25 to send outbound DNS requests on port 53, denying all others."
+    },
+    {
+      "question_number": "Q117",
+      "question": "A data administrator is configuring authentication for a SaaS application and would like to reduce the number of credentials employees need to maintain. The company prefers to use domain credentials to access new SaaS applications. Which of the following methods would allow this functionality?",
+      "options": {
+        "A": "SSO",
+        "B": "LEAP",
+        "C": "MFA",
+        "D": "PEAP"
+      },
+      "correct_answer": "A",
+      "explanation": "SSO (Single Sign-On) allows users to access multiple applications with one set of domain credentials."
+    },
+    {
+      "question_number": "Q118",
+      "question": "Which of the following scenarios describes a possible business email compromise attack?",
+      "options": {
+        "A": "An employee receives a gift card request in an email that has an executive's name in the display field of the email.",
+        "B": "Employees who open an email attachment receive messages demanding payment in order to access files.",
+        "C": "A service desk employee receives an email from the HR director asking for log-in credentials to a cloud administrator account.",
+        "D": "An employee receives an email with a link to a phishing site that is designed to look like the company's email portal."
+      },
+      "correct_answer": "C",
+      "explanation": "BEC attacks typically involve impersonating executives to request sensitive information like login credentials."
+    },
+    {
+      "question_number": "Q119",
+      "question": "A company prevented direct access from the database administrators' workstations to the network segment that contains database servers. Which of the following should a database administrator use to access the database servers?",
+      "options": {
+        "A": "Jump server",
+        "B": "RADIUS",
+        "C": "HSM",
+        "D": "Load balancer"
+      },
+      "correct_answer": "A",
+      "explanation": "A jump server acts as an intermediary for secure access to servers not directly reachable from user workstations."
+    },
+    {
+      "question_number": "Q120",
+      "question": "An organization's internet-facing website was compromised when an attacker exploited a buffer overflow. Which of the following should the organization deploy to best protect against similar attacks in the future?",
+      "options": {
+        "A": "NGFW",
+        "B": "WAF",
+        "C": "TLS",
+        "D": "SD-WAN"
+      },
+      "correct_answer": "B",
+      "explanation": "A WAF (Web Application Firewall) monitors and filters web traffic to protect against web application attacks like buffer overflows."
+    },
+    {
+      "question_number": "Q121",
+      "question": "An administrator notices that several users are logging in from suspicious IP addresses. After speaking with the users, the administrator determines that the employees were not logging in from those IP addresses and resets the affected users' passwords. Which of the following should the administrator implement to prevent this type of attack from succeeding in the future?",
+      "options": {
+        "A": "Multifactor authentication",
+        "B": "Permissions assignment",
+        "C": "Access management",
+        "D": "Password complexity"
+      },
+      "correct_answer": "A",
+      "explanation": "MFA prevents unauthorized access even if passwords are compromised, requiring additional authentication factors."
+    },
+    {
+      "question_number": "Q122",
+      "question": "An employee receives a text message that appears to have been sent by the payroll department and is asking for credential verification. Which of the following social engineering techniques are being attempted? (Choose two).",
+      "options": {
+        "A": "Typosquatting",
+        "B": "Phishing",
+        "C": "Impersonation",
+        "D": "Vishing",
+        "E": "Smishing",
+        "F": "Misinformation"
+      },
+      "correct_answer": ["C", "E"],
+      "explanation": "Smishing is phishing via SMS, and impersonation involves pretending to be the payroll department."
+    },
+    {
+      "question_number": "Q123",
+      "question": "Several employees received a fraudulent text message from someone claiming to be the Chief Executive Officer (CEO). The message stated: 'I'm in an airport right now with no access to email. I need you to buy gift cards for employee recognition awards. Please send the gift cards to following email address.' Which of the following are the best responses to this situation? (Choose two).",
+      "options": {
+        "A": "Cancel current employee recognition gift cards.",
+        "B": "Add a smishing exercise to the annual company training.",
+        "C": "Issue a general email warning to the company.",
+        "D": "Have the CEO change phone numbers.",
+        "E": "Conduct a forensic investigation on the CEO's phone.",
+        "F": "Implement mobile device management."
+      },
+      "correct_answer": ["B", "C"],
+      "explanation": "Adding smishing training raises awareness, and issuing a warning alerts employees to the current threat."
+    },
+    {
+      "question_number": "Q124",
+      "question": "An organization wants a third-party vendor to do a penetration test that targets a specific device. The organization has provided basic information about the device. Which of the following best describes this kind of penetration test?",
+      "options": {
+        "A": "Partially known environment",
+        "B": "Unknown environment",
+        "C": "Integrated",
+        "D": "Known environment"
+      },
+      "correct_answer": "A",
+      "explanation": "A partially known environment (gray box) test provides some information about the target to the tester."
+    },
+    {
+      "question_number": "Q125",
+      "question": "An attacker posing as the Chief Executive Officer calls an employee and instructs the employee to buy gift cards. Which of the following techniques is the attacker using?",
+      "options": {
+        "A": "Smishing",
+        "B": "Disinformation",
+        "C": "Impersonating",
+        "D": "Whaling"
+      },
+      "correct_answer": "C",
+      "explanation": "Impersonating involves pretending to be someone else (the CEO) to deceive the employee."
+    },
+    {
+      "question_number": "Q126",
+      "question": "An analyst is evaluating the implementation of Zero Trust principles within the data plane. Which of the following would be most relevant for the analyst to evaluate?",
+      "options": {
+        "A": "Secured zones",
+        "B": "Subject role",
+        "C": "Adaptive identity",
+        "D": "Threat scope reduction"
+      },
+      "correct_answer": "A",
+      "explanation": "The data plane includes secured zones, systems and subjects, and policy enforcement points in Zero Trust architecture."
+    },
+    {
+      "question_number": "Q127",
+      "question": "An organization is leveraging a VPN between its headquarters and a branch location. Which of the following is the VPN protecting?",
+      "options": {
+        "A": "Data in use",
+        "B": "Data in transit",
+        "C": "Geographic restrictions",
+        "D": "Data sovereignty"
+      },
+      "correct_answer": "B",
+      "explanation": "VPNs protect data in transit by creating encrypted tunnels for data moving between locations."
+    },
+    {
+      "question_number": "Q128",
+      "question": "The marketing department set up its own project management software without telling the appropriate departments. Which of the following describes this scenario?",
+      "options": {
+        "A": "Shadow IT",
+        "B": "Insider threat",
+        "C": "Third-party risk",
+        "D": "Data sovereignty"
+      },
+      "correct_answer": "A",
+      "explanation": "Shadow IT refers to the use of IT systems, devices, software, applications, and services without explicit IT department approval."
+    }
+  ]
+}

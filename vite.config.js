@@ -22,5 +22,5 @@ export default defineConfig({
   },
   // 確保 public 目錄正確配置
   publicDir: "public",
-  base: "./"
+  base: "/compTIA2025/"
 });

@@ -19,28 +19,34 @@ function App() {
   const [page, setPage] = useState(1);
 
   // 新增：集中管理所有作答狀態
-  // answerState: { [question_number]: { selected: string, submitted: boolean } }
   const [answerState, setAnswerState] = useState({});
 
   useEffect(() => {
+    console.log('useEffect 啟動'); // log1
+
     const loadQuestions = async () => {
       try {
         setLoading(true);
         setError(null);
 
-        // 這裡改成 /compTIA.json
-        const response = await fetch('/compTIA.json');
+        console.log('fetching json:', `${import.meta.env.BASE_URL}compTIA.json`); // log2
+        const response = await fetch(`${import.meta.env.BASE_URL}compTIA.json`);
+
+        console.log('fetch response:', response); // log3
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
         const contentType = response.headers.get('content-type');
+        console.log('content-type:', contentType); // log4
+
         if (!contentType || !contentType.includes('application/json')) {
           throw new TypeError("Received non-JSON response");
         }
 
         const data = await response.json();
+        console.log('loaded data:', data); // log5
 
         if (!data || !Array.isArray(data.questions)) {
           throw new Error('Invalid data format');
@@ -48,10 +54,11 @@ function App() {
 
         setQuestions(data.questions);
       } catch (e) {
-        console.error('Error loading questions:', e);
+        console.error('Error loading questions:', e); // log6
         setError(e.message);
       } finally {
         setLoading(false);
+        console.log('setLoading(false)'); // log7
       }
     };
 
@@ -63,23 +70,22 @@ function App() {
     document.title = "compTIA";
   }, []);
 
+  console.log('渲染 App', { loading, error, questions }); // log8
+
   if (loading) return <div>載入中...</div>;
   if (error) return <div>載入失敗: {error}</div>;
   if (!questions.length) return <div>沒有題目資料</div>;
 
-  // 根據選擇範圍過濾題目
   const filteredQuestions = questions.filter(
     q => Number(q.question_number.replace('Q', '')) >= range.start
       && Number(q.question_number.replace('Q', '')) <= range.end
   );
 
-  // 分頁計算
   const totalPage = perPage === 0 ? 1 : Math.ceil(filteredQuestions.length / perPage);
   const currentQuestions = perPage === 0
     ? filteredQuestions
     : filteredQuestions.slice((page - 1) * perPage, page * perPage);
 
-  // 新增：重新作答功能
   const handleReset = () => {
     setAnswerState({});
     window.scrollTo({ top: 0, behavior: 'smooth' });

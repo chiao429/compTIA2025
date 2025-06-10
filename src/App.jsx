@@ -70,8 +70,6 @@ function App() {
     document.title = "compTIA";
   }, []);
 
-  console.log('渲染 App', { loading, error, questions }); // log8
-
   if (loading) return <div>載入中...</div>;
   if (error) return <div>載入失敗: {error}</div>;
   if (!questions.length) return <div>沒有題目資料</div>;

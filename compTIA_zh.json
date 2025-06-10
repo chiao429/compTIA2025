@@ -1,0 +1,2999 @@
+{
+  "Q1": {
+    "question_en": "A security analyst is reviewing alerts in the SIEM related to potential malicious network traffic coming from an employee's corporate laptop. The security analyst has determined that additional data about the executable running on the machine is necessary to continue the investigation. Which of the following logs should the analyst use as a data source?",
+    "question_zh": "一位安全分析師正在審查 SIEM 中與來自員工公司筆記型電腦的潛在惡意網路流量相關的警報。該安全分析師已確定需要有關機器上執行的可執行檔的額外資料才能繼續調查。分析師應使用下列哪種日誌作為資料來源？",
+    "options": {
+      "A": {
+        "en": "Application",
+        "zh": "應用程式"
+      },
+      "B": {
+        "en": "IPS/IDS",
+        "zh": "入侵防禦/偵測系統（IPS/IDS）"
+      },
+      "C": {
+        "en": "Network",
+        "zh": "網路"
+      },
+      "D": {
+        "en": "Endpoint",
+        "zh": "端點"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Endpoint logs are the most suitable data source for gathering additional information about the executable running on the employee's corporate laptop. These logs contain detailed information about processes, executables, and activities occurring on the endpoint, enabling the security analyst to understand the behavior of the executable and its potential impact on the system and network."
+  },
+  "Q2": {
+    "question_en": "A cyber operations team informs a security analyst about a new tactic malicious actors are using to compromise networks. SIEM alerts have not yet been configured. Which of the following best describes what the security analyst should do to identify this behavior?",
+    "question_zh": "資安營運團隊通知安全分析師，有惡意行為者正在使用一種新策略來入侵網路。目前尚未設定 SIEM 警示。分析師應該採取下列哪一項行動以找出這種行為？",
+    "options": {
+      "A": {
+        "en": "Digital forensics",
+        "zh": "數位鑑識"
+      },
+      "B": {
+        "en": "E-discovery",
+        "zh": "電子證據發掘（E-discovery）"
+      },
+      "C": {
+        "en": "Incident response",
+        "zh": "事件回應"
+      },
+      "D": {
+        "en": "Threat hunting",
+        "zh": "威脅狩獵（Threat hunting）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Threat hunting is the process of proactively searching for signs of malicious activity or compromise in a network, rather than waiting for alerts or indicators of compromise (IOCs) to appear. Threat hunting can help identify new tactics, techniques, and procedures (TTPs) used by malicious actors, as well as uncover hidden or stealthy threats that may have evaded detection by security tools."
+  },
+  "Q3": {
+    "question_en": "A company purchased cyber insurance to address items listed on the risk register. Which of the following strategies does this represent?",
+    "question_zh": "某公司為了因應風險登錄表上的項目而購買了網路保險。這代表了哪一種風險處理策略？",
+    "options": {
+      "A": {
+        "en": "Accept",
+        "zh": "接受"
+      },
+      "B": {
+        "en": "Transfer",
+        "zh": "轉移"
+      },
+      "C": {
+        "en": "Mitigate",
+        "zh": "減緩"
+      },
+      "D": {
+        "en": "Avoid",
+        "zh": "避免"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Transfer: Transferring a risk involves shifting some or all of the risk to another party, such as an insurance provider, through contractual agreements or financial arrangements. If the company purchases cyber insurance to address items listed on the risk register, it represents a risk transfer strategy. The company is transferring the financial burden of potential cyber incidents to the insurance provider, who will compensate the company for covered losses."
+  },
+  "Q4": {
+    "question_en": "A security administrator would like to protect data on employees' laptops. Which of the following encryption techniques should the security administrator use?",
+    "question_zh": "某位資安管理員希望保護員工筆記型電腦上的資料。應採用下列哪一種加密技術？",
+    "options": {
+      "A": {
+        "en": "Partition",
+        "zh": "磁碟分割加密"
+      },
+      "B": {
+        "en": "Asymmetric",
+        "zh": "非對稱加密"
+      },
+      "C": {
+        "en": "Full disk",
+        "zh": "全磁碟加密（Full disk encryption）"
+      },
+      "D": {
+        "en": "Database",
+        "zh": "資料庫加密"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Full disk encryption (FDE) encrypts all the data on a disk drive, protecting the data at rest on the entire laptop, including the operating system, applications, and user files. This ensures that if a laptop is lost or stolen, the data cannot be accessed without the correct decryption key."
+  },
+  "Q5": {
+    "question_en": "Which of the following security control types does an acceptable use policy best represent?",
+    "question_zh": "可接受使用政策（AUP）最能代表下列哪一種資安控制類型？",
+    "options": {
+      "A": {
+        "en": "Detective",
+        "zh": "偵測性控制"
+      },
+      "B": {
+        "en": "Compensating",
+        "zh": "補償性控制"
+      },
+      "C": {
+        "en": "Corrective",
+        "zh": "矯正性控制"
+      },
+      "D": {
+        "en": "Preventive",
+        "zh": "預防性控制"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Preventive - an acceptable use policy enforces rules to users to use company resources. Example - company A states that in order to access files in the company server you must connect to your company VPN when working from home. This prevents you from connecting from an insecure network."
+  },
+  "Q6": {
+    "question_en": "An IT manager informs the entire help desk staff that only the IT manager and the help desk lead will have access to the administrator console of the help desk software. Which of the following security techniques is the IT manager setting up?",
+    "question_zh": "IT 經理通知整個客服台團隊，僅 IT 經理與客服台主管可以存取客服系統的管理控制台。這反映了哪一種資安技術的應用？",
+    "options": {
+      "A": {
+        "en": "Hardening",
+        "zh": "系統強化"
+      },
+      "B": {
+        "en": "Employee monitoring",
+        "zh": "員工監控"
+      },
+      "C": {
+        "en": "Configuration enforcement",
+        "zh": "設定規範"
+      },
+      "D": {
+        "en": "Least privilege",
+        "zh": "最小權限原則"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "The principle of least privilege is a security concept that limits access to resources to the minimum level needed for a user, a program, or a device to perform a legitimate function. It is a cybersecurity best practice that protects high-value data and assets from compromise or insider threat."
+  },
+  "Q7": {
+    "question_en": "Which of the following roles, according to the shared responsibility model, is responsible for securing the company's database in an IaaS model for a cloud environment?",
+    "question_zh": "依據共用責任模型（Shared Responsibility Model），在 IaaS 模式的雲端環境中，誰負責保護公司的資料庫？",
+    "options": {
+      "A": {
+        "en": "Client",
+        "zh": "客戶端"
+      },
+      "B": {
+        "en": "Third-party vendor",
+        "zh": "第三方廠商"
+      },
+      "C": {
+        "en": "Cloud provider",
+        "zh": "雲端提供商"
+      },
+      "D": {
+        "en": "DBA",
+        "zh": "資料庫管理員（DBA）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "According to the shared responsibility model, the client and the cloud provider have different roles and responsibilities for securing the cloud environment, depending on the service model. In an IaaS (Infrastructure as a Service) model, the cloud provider is responsible for securing the physical infrastructure, while the client is responsible for securing the operating systems, applications, and data that run on the cloud infrastructure."
+  },
+  "Q8": {
+    "question_en": "A client asked a security company to provide a document outlining the project, the cost, and the completion time frame. Which of the following documents should the company provide to the client?",
+    "question_zh": "某客戶要求資安公司提供一份文件，說明專案內容、成本以及完成時程。公司應該提供下列哪一項文件？",
+    "options": {
+      "A": {
+        "en": "MSA",
+        "zh": "主服務協議（MSA）"
+      },
+      "B": {
+        "en": "SLA",
+        "zh": "服務層級協議（SLA）"
+      },
+      "C": {
+        "en": "BPA",
+        "zh": "營運夥伴協議（BPA）"
+      },
+      "D": {
+        "en": "SOW",
+        "zh": "工作說明書（SOW）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "An SOW (Statement of Work) is a document that outlines the project, the cost, and the completion time frame for a security company to provide a service to a client. SOW specifies the scope, deliverables, milestones, and payment terms of a security project."
+  },
+  "Q9": {
+    "question_en": "A security team is reviewing the findings in a report that was delivered after a third party performed a penetration test. One of the findings indicated that a web application form field is vulnerable to cross-site scripting. Which of the following application security techniques should the security analyst recommend the developer implement to prevent this vulnerability?",
+    "question_zh": "資安團隊正在檢閱滲透測試報告，報告指出某個網頁應用程式的輸入欄位存在跨網站指令碼漏洞（XSS）。資安分析師應建議開發人員實作哪一種應用程式安全技術來防止此漏洞？",
+    "options": {
+      "A": {
+        "en": "Secure cookies",
+        "zh": "安全 Cookie"
+      },
+      "B": {
+        "en": "Version control",
+        "zh": "版本控制"
+      },
+      "C": {
+        "en": "Input validation",
+        "zh": "輸入驗證"
+      },
+      "D": {
+        "en": "Code signing",
+        "zh": "程式碼簽章"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Input validation is a technique that checks the user input for any malicious or unexpected data before processing it by the web application. Input validation can prevent cross-site scripting (XSS) attacks, which exploit the vulnerability of a web application to execute malicious scripts in the browser of a victim."
+  },
+  "Q10": {
+    "question_en": "Which of the following must be considered when designing a high-availability network? (Choose two).",
+    "question_zh": "在設計高可用性網路時，應考慮下列哪兩個要素？（請選兩項）",
+    "options": {
+      "A": {
+        "en": "Ease of recovery",
+        "zh": "回復的容易性"
+      },
+      "B": {
+        "en": "Ability to patch",
+        "zh": "修補能力"
+      },
+      "C": {
+        "en": "Physical isolation",
+        "zh": "實體隔離"
+      },
+      "D": {
+        "en": "Responsiveness",
+        "zh": "回應能力"
+      },
+      "E": {
+        "en": "Attack surface",
+        "zh": "攻擊面積"
+      },
+      "F": {
+        "en": "Extensible authentication",
+        "zh": "可擴充的認證"
+      }
+    },
+    "correct_answer": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ease of recovery: High-availability networks should be designed in a way that allows for quick and easy recovery in the event of a failure. Responsiveness: High-availability networks need to be responsive to ensure that any potential issues or failures are quickly detected, and appropriate actions are taken promptly to minimize downtime and impact."
+  },
+  "Q20": {
+    "question_en": "A systems administrator works for a local hospital and needs to ensure patient data is protected and secure. Which of the following data classifications should be used to secure patient data?",
+    "question_zh": "一位系統管理員在地方醫院工作，需要確保病患資料受到保護且安全。應採用哪一種資料分類方式？",
+    "options": {
+      "A": {
+        "en": "Private",
+        "zh": "私人"
+      },
+      "B": {
+        "en": "Critical",
+        "zh": "關鍵"
+      },
+      "C": {
+        "en": "Sensitive",
+        "zh": "敏感"
+      },
+      "D": {
+        "en": "Public",
+        "zh": "公開"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Patient data in healthcare settings is typically classified as Sensitive due to privacy regulations like HIPAA."
+  },
+  "Q21": {
+    "question_en": "A U.S.-based cloud-hosting provider wants to expand its data centers to new international locations. Which of the following should the hosting provider consider first?",
+    "question_zh": "一家位於美國的雲端主機服務商想要拓展國際據點。在展開行動前應優先考慮什麼？",
+    "options": {
+      "A": {
+        "en": "Local data protection regulations",
+        "zh": "當地資料保護法規"
+      },
+      "B": {
+        "en": "Risks from hackers residing in other countries",
+        "zh": "其他國家駭客風險"
+      },
+      "C": {
+        "en": "Impacts to existing contractual obligations",
+        "zh": "現有合約義務的影響"
+      },
+      "D": {
+        "en": "Time zone differences in log correlation",
+        "zh": "時區對日誌關聯性的影響"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Local data protection regulations are the first thing that a cloud-hosting provider should consider before expanding its data centers to new international locations. Different countries or regions may have different data protection regulations, such as GDPR in the EU, PIPEDA in Canada, or CCPA in the US."
+  },
+  "Q22": {
+    "question_en": "Which of the following would be the best way to block unknown programs from executing?",
+    "question_zh": "下列哪一項是封鎖未知程式執行的最佳方法？",
+    "options": {
+      "A": {
+        "en": "Access control list",
+        "zh": "存取控制清單（ACL）"
+      },
+      "B": {
+        "en": "Application allow list",
+        "zh": "應用程式允許清單"
+      },
+      "C": {
+        "en": "Host-based firewall",
+        "zh": "主機防火牆"
+      },
+      "D": {
+        "en": "DLP solution",
+        "zh": "資料外洩防護（DLP）"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "An application allow list is a security technique that specifies which applications are permitted to run on a system or a network. An application allow list can block unknown programs from executing by only allowing the execution of programs that are explicitly authorized and verified."
+  },
+  "Q23": {
+    "question_en": "A company hired a consultant to perform an offensive security assessment covering penetration testing and social engineering. Which of the following teams will conduct this assessment activity?",
+    "question_zh": "某公司雇用顧問進行進攻性安全評估，涵蓋滲透測試與社交工程。哪一種團隊會執行此任務？",
+    "options": {
+      "A": {
+        "en": "White",
+        "zh": "白隊"
+      },
+      "B": {
+        "en": "Purple",
+        "zh": "紫隊"
+      },
+      "C": {
+        "en": "Blue",
+        "zh": "藍隊"
+      },
+      "D": {
+        "en": "Red",
+        "zh": "紅隊"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "A red team is a group of security professionals who perform offensive security assessments covering penetration testing and social engineering. A red team simulates real-world attacks and exploits the vulnerabilities of a target organization."
+  },
+  "Q24": {
+    "question_en": "A software development manager wants to ensure the authenticity of the code created by the company. Which of the following options is the most appropriate?",
+    "question_zh": "軟體開發經理希望確認公司開發的程式碼是可信的，應該使用哪一種方式？",
+    "options": {
+      "A": {
+        "en": "Testing input validation on the user input fields",
+        "zh": "測試輸入欄位驗證"
+      },
+      "B": {
+        "en": "Performing code signing on company-developed software",
+        "zh": "對公司開發軟體進行程式碼簽章"
+      },
+      "C": {
+        "en": "Performing static code analysis on the software",
+        "zh": "進行靜態程式碼分析"
+      },
+      "D": {
+        "en": "Ensuring secure cookies are used",
+        "zh": "使用安全 Cookie"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Code signing is a technique that uses cryptography to verify the authenticity and integrity of the code created by the company. Code signing involves applying a digital signature to the code using a private key that only the company possesses."
+  },
+  "Q25": {
+    "question_en": "Which of the following can be used to identify potential attacker activities without affecting production servers?",
+    "question_zh": "下列哪一種工具可用於偵測潛在攻擊者行為而不影響生產伺服器？",
+    "options": {
+      "A": {
+        "en": "Honey pot",
+        "zh": "蜜罐（Honey pot）"
+      },
+      "B": {
+        "en": "Video surveillance",
+        "zh": "影像監控"
+      },
+      "C": {
+        "en": "Zero Trust",
+        "zh": "零信任架構"
+      },
+      "D": {
+        "en": "Geofencing",
+        "zh": "地理圍欄（Geofencing）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "A honey pot is a system or a network that is designed to mimic a real production server and attract potential attackers. A honey pot can be used to identify the attacker's methods, techniques, and objectives without affecting the actual production servers."
+  },
+  "Q26": {
+    "question_en": "During an investigation, an incident response team attempts to understand the source of an incident. Which of the following incident response activities describes this process?",
+    "question_zh": "在調查過程中，事件回應團隊試圖理解事件來源。這屬於哪一項事件回應活動？",
+    "options": {
+      "A": {
+        "en": "Analysis",
+        "zh": "分析"
+      },
+      "B": {
+        "en": "Lessons learned",
+        "zh": "經驗回顧"
+      },
+      "C": {
+        "en": "Detection",
+        "zh": "偵測"
+      },
+      "D": {
+        "en": "Containment",
+        "zh": "圍堵"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Analysis is the incident response activity that describes the process of understanding the source of an incident. Analysis involves collecting and examining evidence, identifying the root cause, determining the scope and impact, and assessing the threat actor's motives and capabilities."
+  },
+  "Q27": {
+    "question_en": "A security practitioner completes a vulnerability assessment on a company's network and finds several vulnerabilities, which the operations team remediates. Which of the following should be done next?",
+    "question_zh": "安全從業人員完成網路的弱點評估，發現多個漏洞，營運團隊已修復。下一步應是？",
+    "options": {
+      "A": {
+        "en": "Conduct an audit.",
+        "zh": "進行稽核"
+      },
+      "B": {
+        "en": "Initiate a penetration test.",
+        "zh": "啟動滲透測試"
+      },
+      "C": {
+        "en": "Rescan the network.",
+        "zh": "重新掃描網路"
+      },
+      "D": {
+        "en": "Submit a report.",
+        "zh": "提交報告"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "After remediation, rescanning the network is necessary to verify that the vulnerabilities have been properly addressed and no new issues have been introduced."
+  },
+  "Q28": {
+    "question_en": "An administrator was notified that a user logged in remotely after hours and copied large amounts of data to a personal device. Which of the following best describes the user's activity?",
+    "question_zh": "使用者在非上班時間遠端登入並將大量資料複製到個人裝置。這種行為屬於？",
+    "options": {
+      "A": {
+        "en": "Penetration testing",
+        "zh": "滲透測試"
+      },
+      "B": {
+        "en": "Phishing campaign",
+        "zh": "網釣攻擊"
+      },
+      "C": {
+        "en": "External audit",
+        "zh": "外部稽核"
+      },
+      "D": {
+        "en": "Insider threat",
+        "zh": "內部威脅"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "An insider threat is a security risk that originates from within the organization, such as an employee, contractor, or business partner, who has authorized access to the organization's data and systems."
+  },
+  "Q29": {
+    "question_en": "Which of the following allows for the attribution of messages to individuals?",
+    "question_zh": "下列哪一項可用來追蹤訊息發送者身分，避免否認責任？",
+    "options": {
+      "A": {
+        "en": "Adaptive identity",
+        "zh": "自適應身分識別"
+      },
+      "B": {
+        "en": "Non-repudiation",
+        "zh": "不可否認性"
+      },
+      "C": {
+        "en": "Authentication",
+        "zh": "身分驗證"
+      },
+      "D": {
+        "en": "Access logs",
+        "zh": "存取記錄"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Non-repudiation is the ability to prove that a message or document was sent or signed by a particular person, and that the person cannot deny sending or signing it."
+  },
+  "Q30": {
+    "question_en": "Which of the following is the best way to consistently determine on a daily basis whether security settings on servers have been modified?",
+    "question_zh": "每天確認伺服器安全設定是否遭變更，應採取哪一項方式最為一致？",
+    "options": {
+      "A": {
+        "en": "Automation",
+        "zh": "自動化"
+      },
+      "B": {
+        "en": "Compliance checklist",
+        "zh": "合規檢查表"
+      },
+      "C": {
+        "en": "Attestation",
+        "zh": "認證聲明"
+      },
+      "D": {
+        "en": "Manual audit",
+        "zh": "人工稽核"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Automation provides consistent, reliable daily checks of security settings without human error or resource constraints."
+  },
+  "Q31": {
+    "question_en": "Which of the following tools can assist with detecting an employee who has accidentally emailed a file containing a customer's PII?",
+    "question_zh": "下列哪一項工具可協助偵測員工誤將含有個資的檔案透過電子郵件外洩？",
+    "options": {
+      "A": {
+        "en": "SCAP",
+        "zh": "SCAP"
+      },
+      "B": {
+        "en": "Net Flow",
+        "zh": "Net Flow"
+      },
+      "C": {
+        "en": "Antivirus",
+        "zh": "防毒軟體"
+      },
+      "D": {
+        "en": "DLP",
+        "zh": "資料外洩防護（DLP）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "DLP stands for Data Loss Prevention, which is a tool that can assist with detecting and preventing the unauthorized transmission or leakage of sensitive data, such as a customer's PII."
+  },
+  "Q32": {
+    "question_en": "An organization recently updated its security policy to include the following statement: Regular expressions are included in source code to remove special characters such as $, |, ;, &, `, and ? from variables set by forms in a web application. Which of the following best explains the security technique the organization adopted by making this addition to the policy?",
+    "question_zh": "組織在安全政策中新增一條，使用正規表示式從表單變數中移除特殊符號（如$,|,;,&,`等）。這反映了哪種安全技術？",
+    "options": {
+      "A": {
+        "en": "Identify embedded keys",
+        "zh": "識別嵌入金鑰"
+      },
+      "B": {
+        "en": "Code debugging",
+        "zh": "程式碼除錯"
+      },
+      "C": {
+        "en": "Input validation",
+        "zh": "輸入驗證"
+      },
+      "D": {
+        "en": "Static code analysis",
+        "zh": "靜態程式碼分析"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Input validation is the security technique being adopted by using regular expressions to remove special characters that could be used in injection attacks."
+  },
+  "Q33": {
+    "question_en": "A security analyst and the management team are reviewing the organizational performance of a recent phishing campaign. The user click-through rate exceeded the acceptable risk threshold, and the management team wants to reduce the impact when a user clicks on a link in a phishing message. Which of the following should the analyst do?",
+    "question_zh": "分析網釣點擊率高於風險門檻，管理層希望降低點擊後影響，應採取哪項措施？",
+    "options": {
+      "A": {
+        "en": "Place posters around the office to raise awareness of common phishing activities.",
+        "zh": "在辦公室張貼網釣警示海報"
+      },
+      "B": {
+        "en": "Implement email security filters to prevent phishing emails from being delivered",
+        "zh": "實作電子郵件安全過濾"
+      },
+      "C": {
+        "en": "Update the EDR policies to block automatic execution of downloaded programs.",
+        "zh": "更新 EDR 政策以封鎖自動執行的程式"
+      },
+      "D": {
+        "en": "Create additional training for users to recognize the signs of phishing attempts.",
+        "zh": "為使用者增加識別網釣的訓練"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "An endpoint detection and response (EDR) system can prevent malicious code from running on the endpoint when a user clicks on a link in a phishing message. Updating the EDR policies to block automatic execution of downloaded programs is a technical control that can mitigate the risk of phishing."
+  },
+  "Q34": {
+    "question_en": "Which of the following has been implemented when a host-based firewall on a legacy Linux system allows connections from only specific internal IP addresses?",
+    "question_zh": "某舊型 Linux 系統的主機防火牆僅允許特定內部 IP 存取。這是哪一種控制？",
+    "options": {
+      "A": {
+        "en": "Compensating control",
+        "zh": "補償性控制"
+      },
+      "B": {
+        "en": "Network segmentation",
+        "zh": "網路區隔"
+      },
+      "C": {
+        "en": "Transfer of risk",
+        "zh": "風險轉移"
+      },
+      "D": {
+        "en": "SNMP traps",
+        "zh": "SNMP 陷阱"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "A compensating control is a security measure that is implemented to mitigate the risk of a vulnerability or a weakness that cannot be resolved by the primary control. A host-based firewall on a legacy Linux system that allows connections from only specific internal IP addresses is an example of a compensating control."
+  },
+  "Q35": {
+    "question_en": "The management team notices that new accounts that are set up manually do not always have correct access or permissions. Which of the following automation techniques should a systems administrator use to streamline account creation?",
+    "question_zh": "手動建立帳號常出現權限錯誤，應用哪一種自動化技術可改善此情況？",
+    "options": {
+      "A": {
+        "en": "Guard rail script",
+        "zh": "安全腳本（Guard rail）"
+      },
+      "B": {
+        "en": "Ticketing workflow",
+        "zh": "工單流程"
+      },
+      "C": {
+        "en": "Escalation script",
+        "zh": "升級腳本"
+      },
+      "D": {
+        "en": "User provisioning script",
+        "zh": "使用者建置腳本"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "A user provisioning script is an automation technique that uses a predefined set of instructions or commands to create, modify, or delete user accounts and assign appropriate access or permissions."
+  },
+  "Q36": {
+    "question_en": "A company is planning to set up a SIEM system and assign an analyst to review the logs on a weekly basis. Which of the following types of controls is the company setting up?",
+    "question_zh": "公司計畫部署 SIEM 並指派分析師每週查看日誌。這是哪一類型的控制措施？",
+    "options": {
+      "A": {
+        "en": "Corrective",
+        "zh": "矯正性控制"
+      },
+      "B": {
+        "en": "Preventive",
+        "zh": "預防性控制"
+      },
+      "C": {
+        "en": "Detective",
+        "zh": "偵測性控制"
+      },
+      "D": {
+        "en": "Deterrent",
+        "zh": "威嚇性控制"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "A detective control is a type of control that monitors and analyzes the events and activities in a system or a network, and alerts or reports when an incident or a violation occurs. A SIEM system is a tool that collects, correlates, and analyzes logs from various sources."
+  },
+  "Q37": {
+    "question_en": "A systems administrator is looking for a low-cost application-hosting solution that is cloud-based. Which of the following meets these requirements?",
+    "question_zh": "系統管理員尋找低成本雲端應用代管解決方案。應選擇下列哪一項？",
+    "options": {
+      "A": {
+        "en": "Serverless framework",
+        "zh": "無伺服器架構"
+      },
+      "B": {
+        "en": "Type 1 hypervisor",
+        "zh": "第一型虛擬機管理程式"
+      },
+      "C": {
+        "en": "SD-WAN",
+        "zh": "SD-WAN"
+      },
+      "D": {
+        "en": "SDN",
+        "zh": "SDN"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Serverless framework is a cloud-based, low-cost solution for hosting applications without managing infrastructure."
+  },
+  "Q38": {
+    "question_en": "A security operations center determines that the malicious activity detected on a server is normal. Which of the following activities describes the act of ignoring detected activity in the future?",
+    "question_zh": "SOC 確認某伺服器異常活動實為正常行為。忽略此活動屬於哪一種行為？",
+    "options": {
+      "A": {
+        "en": "Tuning",
+        "zh": "調整（Tuning）"
+      },
+      "B": {
+        "en": "Aggregating",
+        "zh": "彙總（Aggregating）"
+      },
+      "C": {
+        "en": "Quarantining",
+        "zh": "隔離（Quarantining）"
+      },
+      "D": {
+        "en": "Archiving",
+        "zh": "封存（Archiving）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Tuning is the activity of adjusting the configuration or parameters of a security tool or system to optimize its performance and reduce false positives or false negatives."
+  },
+  "Q39": {
+    "question_en": "A security analyst reviews domain activity logs and notices multiple failed login attempts for user jsmith. Which of the following is the best explanation for what the security analyst has discovered?",
+    "question_zh": "分析師發現帳號 jsmith 有多次登入失敗。最可能的原因是？",
+    "options": {
+      "A": {
+        "en": "The user jsmith's account has been locked out.",
+        "zh": "帳號已被鎖定"
+      },
+      "B": {
+        "en": "A keylogger is installed on jsmith's workstation",
+        "zh": "鍵盤側錄器已安裝"
+      },
+      "C": {
+        "en": "An attacker is attempting to brute force jsmith's account.",
+        "zh": "遭受暴力破解攻擊"
+      },
+      "D": {
+        "en": "Ransomware has been deployed in the domain.",
+        "zh": "網路中部署了勒索軟體"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Multiple failed login attempts in a short period of time is a strong indicator of a brute force attack where an attacker tries to guess the password."
+  },
+  "Q40": {
+    "question_en": "A company is concerned about weather events causing damage to the server room and downtime. Which of the following should the company consider?",
+    "question_zh": "公司擔心氣候事件導致機房損壞，應考慮哪一項方案？",
+    "options": {
+      "A": {
+        "en": "Clustering servers",
+        "zh": "伺服器叢集"
+      },
+      "B": {
+        "en": "Geographic dispersion",
+        "zh": "地理分散"
+      },
+      "C": {
+        "en": "Load balancers",
+        "zh": "負載平衡器"
+      },
+      "D": {
+        "en": "Off-site backups",
+        "zh": "離線備份"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Geographic dispersion is a strategy that involves distributing the servers or data centers across different geographic locations to mitigate the risk of weather events causing damage and downtime."
+  },
+  "Q41": {
+    "question_en": "Which of the following is a primary security concern for a company setting up a BYOD program?",
+    "question_zh": "公司導入 BYOD 計畫，主要安全顧慮為何？",
+    "options": {
+      "A": {
+        "en": "End of life",
+        "zh": "設備終止壽命"
+      },
+      "B": {
+        "en": "Buffer overflow",
+        "zh": "緩衝區溢位"
+      },
+      "C": {
+        "en": "VM escape",
+        "zh": "虛擬機逃逸"
+      },
+      "D": {
+        "en": "Jailbreaking",
+        "zh": "越獄（Jailbreaking）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Jailbreaking is a primary security concern for BYOD programs as it removes manufacturer restrictions on devices, potentially exposing them to malware and compromising security controls."
+  },
+  "Q42": {
+    "question_en": "A company decided to reduce the cost of its annual cyber insurance policy by removing the coverage for ransomware attacks. Which of the following analysis elements did the company most likely use in making this decision?",
+    "question_zh": "公司移除勒索保險以降低保費，這決策最可能基於哪項分析元素？",
+    "options": {
+      "A": {
+        "en": "MTTR",
+        "zh": "平均修復時間（MTTR）"
+      },
+      "B": {
+        "en": "RTO",
+        "zh": "恢復時間目標（RTO）"
+      },
+      "C": {
+        "en": "ARO",
+        "zh": "年化發生率（ARO）"
+      },
+      "D": {
+        "en": "MTBF",
+        "zh": "平均無故障時間（MTBF）"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "ARO (Annualized Rate of Occurrence) is used to estimate how often a threat might occur annually, which helps in risk assessment and insurance decisions."
+  },
+  "Q43": {
+    "question_en": "Which of the following is the most likely to be included as an element of communication in a security awareness program?",
+    "question_zh": "安全意識計畫中最常包含哪一項溝通要素？",
+    "options": {
+      "A": {
+        "en": "Reporting phishing attempts or other suspicious activities",
+        "zh": "回報網釣或可疑行為"
+      },
+      "B": {
+        "en": "Detecting insider threats using anomalous behavior recognition",
+        "zh": "偵測異常行為找出內部威脅"
+      },
+      "C": {
+        "en": "Verifying information when modifying wire transfer data",
+        "zh": "轉帳資料變更時的資訊驗證"
+      },
+      "D": {
+        "en": "Performing social engineering as part of third-party penetration testing",
+        "zh": "進行社交工程滲透測試"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Reporting phishing attempts or other suspicious activities is a key element of security awareness programs to encourage user participation in security."
+  },
+  "Q44": {
+    "question_en": "Hotspot Question: Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.",
+    "question_zh": "熱區題：從下拉選單中選出對應攻擊與防護方式配對。",
+    "options": {
+      "A": {
+        "en": "See diagram for matches",
+        "zh": "請參見圖表配對"
+      },
+      "B": {
+        "en": "Attack-remediation pairs",
+        "zh": "攻擊-防護配對"
+      },
+      "C": {
+        "en": "Multiple selections required",
+        "zh": "需多重選擇"
+      },
+      "D": {
+        "en": "Interactive question",
+        "zh": "互動式題目"
+      }
+    },
+    "correct_answer": "Interactive question - see explanation",
+    "explanation": "This is a hotspot/interactive question that requires matching attacks with their appropriate remediations. The specific answer depends on the diagram provided in the exam."
+  },
+  "Q45": {
+    "question_en": "Hotspot Question: You are a security administrator investigating a potential infection on a network. Click on each host and firewall. Review all logs to determine which host originated the infection and then identify if each remaining host is clean or infected.",
+    "question_zh": "熱區題：請點選主機與防火牆，判斷感染源並標記其餘主機狀態。",
+    "options": {
+      "A": {
+        "en": "192.168.10.22 - origin",
+        "zh": "192.168.10.22 - 感染源"
+      },
+      "B": {
+        "en": "192.168.10.37 - clean",
+        "zh": "192.168.10.37 - 乾淨"
+      },
+      "C": {
+        "en": "192.168.10.41 - infected",
+        "zh": "192.168.10.41 - 感染"
+      },
+      "D": {
+        "en": "All of the above",
+        "zh": "以上皆是"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "192.168.10.22 - origin - it started infection first. 192.168.10.37 - clean - able to get updates and quarantine malicious file. 192.168.10.41 - infected - not able to quarantine infected file. 10.10.9.12 - clean. 10.10.9.18 - infected."
+  },
+  "Q46": {
+    "question_en": "Which of the following vulnerabilities is exploited when an attacker overwrites a register with a malicious address?",
+    "question_zh": "當攻擊者覆寫暫存器導致導向惡意位址，此為哪種漏洞？",
+    "options": {
+      "A": {
+        "en": "VM escape",
+        "zh": "虛擬機逃逸"
+      },
+      "B": {
+        "en": "SQL injection",
+        "zh": "SQL 注入"
+      },
+      "C": {
+        "en": "Buffer overflow",
+        "zh": "緩衝區溢位"
+      },
+      "D": {
+        "en": "Race condition",
+        "zh": "競爭條件"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "A buffer overflow is a vulnerability that occurs when an application writes more data to a memory buffer than it can hold, causing the excess data to overwrite adjacent memory locations including registers."
+  },
+  "Q47": {
+    "question_en": "Which of the following would be the best way to handle a critical business application that is running on a legacy server?",
+    "question_zh": "對於執行重要應用的舊伺服器，最佳處理方式為何？",
+    "options": {
+      "A": {
+        "en": "Segmentation",
+        "zh": "網段隔離"
+      },
+      "B": {
+        "en": "Isolation",
+        "zh": "獨立隔離"
+      },
+      "C": {
+        "en": "Hardening",
+        "zh": "系統強化"
+      },
+      "D": {
+        "en": "Decommissioning",
+        "zh": "淘汰系統"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Segmentation would limit the ability of an attacker to pivot from the vulnerable server to the rest of the network while still allowing the critical application to function."
+  },
+  "Q48": {
+    "question_en": "Which of the following describes the process of concealing code or text inside a graphical image?",
+    "question_zh": "將程式碼或文字隱藏於圖像檔中，稱為？",
+    "options": {
+      "A": {
+        "en": "Symmetric encryption",
+        "zh": "對稱加密"
+      },
+      "B": {
+        "en": "Hashing",
+        "zh": "雜湊"
+      },
+      "C": {
+        "en": "Data masking",
+        "zh": "資料遮罩"
+      },
+      "D": {
+        "en": "Steganography",
+        "zh": "隱寫術"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Steganography is the process of hiding information within another medium, such as concealing code or text inside a graphical image."
+  },
+  "Q49": {
+    "question_en": "After a company was compromised, customers initiated a lawsuit. The company's attorneys have requested that the security team initiate a legal hold in response to the lawsuit. Which of the following describes the action the security team will most likely be required to take?",
+    "question_zh": "公司遭駭後面臨訴訟，法務要求啟動法律保全，應採取何行動？",
+    "options": {
+      "A": {
+        "en": "Retain the emails between the security team and affected customers for 30 days.",
+        "zh": "保留與客戶溝通的電子郵件 30 天"
+      },
+      "B": {
+        "en": "Retain any communications related to the security breach until further notice.",
+        "zh": "保留所有與資安事件相關的溝通直到另行通知"
+      },
+      "C": {
+        "en": "Retain any communications between security members during the breach response.",
+        "zh": "保留資安團隊內部應變通訊"
+      },
+      "D": {
+        "en": "Retain all emails from the company to affected customers for an indefinite period of time.",
+        "zh": "無限期保留公司寄給客戶的所有郵件"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "A legal hold requires preserving all relevant communications and data related to the security breach until the legal matter is resolved."
+  },
+  "Q50": {
+    "question_en": "A network manager wants to protect the company's VPN by implementing multifactor authentication that uses: Something you know, Something you have, Something you are. Which of the following would accomplish the manager's goal?",
+    "question_zh": "管理者欲使用多因素驗證保護 VPN：知道的事物、有的事物、是的事物，應選？",
+    "options": {
+      "A": {
+        "en": "Domain name, PKI, GeoIP lookup",
+        "zh": "網域名稱、PKI、地理位置查詢"
+      },
+      "B": {
+        "en": "VPN IP address, company ID, facial structure",
+        "zh": "VPN IP、公司證件、臉部結構"
+      },
+      "C": {
+        "en": "Password, authentication token, thumbprint",
+        "zh": "密碼、驗證代碼、指紋"
+      },
+      "D": {
+        "en": "Company URL, TLS certificate, home address",
+        "zh": "公司網址、TLS 憑證、住家地址"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Password (something you know), authentication token (something you have), and thumbprint (something you are) represent the three factors of authentication."
+  },
+  "Q51": {
+    "question_en": "A security manager created new documentation to use in response to various types of security incidents. Which of the following is the next step the manager should take?",
+    "question_zh": "安全經理制定了一份新文件，用於應對各類安全事件。下一步應該做什麼？",
+    "options": {
+      "A": {
+        "en": "Set the maximum data retention policy.",
+        "zh": "設定最大資料保留政策。"
+      },
+      "B": {
+        "en": "Securely store the documents on an air-gapped network.",
+        "zh": "將文件安全地儲存在隔離網路中。"
+      },
+      "C": {
+        "en": "Review the documents' data classification policy.",
+        "zh": "檢視文件的資料分類政策。"
+      },
+      "D": {
+        "en": "Conduct a tabletop exercise with the team.",
+        "zh": "與團隊進行模擬演練。"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "A tabletop exercise is a simulated scenario that tests the effectiveness of a security incident response plan and validates the documentation."
+  },
+  "Q52": {
+    "question_en": "Users at a company are reporting they are unable to access the URL for a new retail website because it is flagged as gambling and is being blocked. Which of the following changes would allow users to access the site?",
+    "question_zh": "使用者回報無法存取一個新購物網站，因為它被歸類為賭博網站並遭到封鎖。應該採取什麼措施？",
+    "options": {
+      "A": {
+        "en": "Creating a firewall rule to allow HTTPS traffic",
+        "zh": "建立防火牆規則以允許 HTTPS 流量。"
+      },
+      "B": {
+        "en": "Configuring the IPS to allow shopping",
+        "zh": "設定入侵防禦系統以允許購物活動。"
+      },
+      "C": {
+        "en": "Tuning the DLP rule that detects credit card data",
+        "zh": "調整偵測信用卡資料的 DLP 規則。"
+      },
+      "D": {
+        "en": "Updating the categorization in the content filter",
+        "zh": "更新內容過濾器中的分類方式。"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "The content filter's categorization needs to be updated to reflect the correct category of the website (shopping/retail instead of gambling)."
+  },
+  "Q53": {
+    "question_en": "An administrator discovers that some files on a database server were recently encrypted. The administrator sees from the security logs that the data was last accessed by a domain user. Which of the following best describes the type of attack that occurred?",
+    "question_zh": "管理員發現資料庫伺服器上的檔案被加密，且安全日誌顯示最近由網域使用者存取。這是哪種類型的攻擊？",
+    "options": {
+      "A": {
+        "en": "Insider threat",
+        "zh": "內部威脅"
+      },
+      "B": {
+        "en": "Social engineering",
+        "zh": "社交工程"
+      },
+      "C": {
+        "en": "Watering-hole",
+        "zh": "水坑攻擊"
+      },
+      "D": {
+        "en": "Unauthorized attacker",
+        "zh": "未授權的攻擊者"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "An insider threat is a type of attack that originates from someone who has legitimate access to an organization's network, systems, or data."
+  },
+  "Q54": {
+    "question_en": "Which of the following automation use cases would best enhance the security posture of an organization by rapidly updating permissions when employees leave a company?",
+    "question_zh": "若希望在員工離職時立即更新權限，哪一種自動化情境最能提升組織安全性？",
+    "options": {
+      "A": {
+        "en": "Provisioning resources",
+        "zh": "配置資源"
+      },
+      "B": {
+        "en": "Disabling access",
+        "zh": "停用存取權限"
+      },
+      "C": {
+        "en": "Reviewing change approvals",
+        "zh": "審查變更核准"
+      },
+      "D": {
+        "en": "Escalating permission requests",
+        "zh": "升級權限申請"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Disabling access is an automation use case that rapidly updates permissions when employees leave, preventing unauthorized access by former employees."
+  },
+  "Q55": {
+    "question_en": "A company would like to provide employees with computers that do not have access to the internet in order to prevent information from being leaked to an online forum. Which of the following would be best for the systems administrator to implement?",
+    "question_zh": "公司希望提供無法上網的電腦，以防資訊外洩至網路論壇。系統管理員應採用什麼方法？",
+    "options": {
+      "A": {
+        "en": "Air gap",
+        "zh": "物理隔離"
+      },
+      "B": {
+        "en": "Jump server",
+        "zh": "跳板伺服器"
+      },
+      "C": {
+        "en": "Logical segmentation",
+        "zh": "邏輯分段"
+      },
+      "D": {
+        "en": "Virtualization",
+        "zh": "虛擬化技術"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "An air gap physically isolates the computer or network from any outside connections, including the internet, ensuring that data cannot be transferred to or from the system."
+  },
+  "Q56": {
+    "question_en": "Which of the following methods to secure credit card data is best to use when a requirement is to see only the last four numbers on a credit card?",
+    "question_zh": "若希望只能看到信用卡的最後四碼，應使用哪一種技術保護資料？",
+    "options": {
+      "A": {
+        "en": "Encryption",
+        "zh": "加密"
+      },
+      "B": {
+        "en": "Hashing",
+        "zh": "雜湊"
+      },
+      "C": {
+        "en": "Masking",
+        "zh": "遮蔽"
+      },
+      "D": {
+        "en": "Tokenization",
+        "zh": "代碼化"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Masking involves replacing some or all of the digits with symbols while leaving some of the original digits visible, perfect for showing only the last four digits."
+  },
+  "Q57": {
+    "question_en": "An administrator finds that all user workstations and servers are displaying a message that is associated with files containing an extension of .ryk. Which of the following types of infections is present on the systems?",
+    "question_zh": "所有使用者電腦和伺服器顯示與 .ryk 副檔名相關的訊息，這是哪一種感染？",
+    "options": {
+      "A": {
+        "en": "Virus",
+        "zh": "病毒"
+      },
+      "B": {
+        "en": "Trojan",
+        "zh": "木馬程式"
+      },
+      "C": {
+        "en": "Spyware",
+        "zh": "間諜軟體"
+      },
+      "D": {
+        "en": "Ransomware",
+        "zh": "勒索軟體"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Ransomware encrypts files and displays messages demanding payment. The .ryk extension is associated with Ryuk ransomware."
+  },
+  "Q58": {
+    "question_en": "A healthcare organization wants to provide a web application that allows individuals to digitally report health emergencies. Which of the following is the most important consideration during development?",
+    "question_zh": "醫療組織開發一個應用程式讓人們線上通報緊急事件，最重要的考量是？",
+    "options": {
+      "A": {
+        "en": "Scalability",
+        "zh": "可擴展性"
+      },
+      "B": {
+        "en": "Availability",
+        "zh": "可用性"
+      },
+      "C": {
+        "en": "Cost",
+        "zh": "成本"
+      },
+      "D": {
+        "en": "Ease of deployment",
+        "zh": "部署便利性"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Availability is the most important consideration for emergency reporting systems, as any downtime could have serious consequences for health and safety."
+  },
+  "Q59": {
+    "question_en": "Which of the following is the best reason to complete an audit in a banking environment?",
+    "question_zh": "為什麼在銀行環境中進行稽核是必要的？",
+    "options": {
+      "A": {
+        "en": "Regulatory requirement",
+        "zh": "法規要求"
+      },
+      "B": {
+        "en": "Organizational change",
+        "zh": "組織變革"
+      },
+      "C": {
+        "en": "Self-assessment requirement",
+        "zh": "自我評估要求"
+      },
+      "D": {
+        "en": "Service-level requirement",
+        "zh": "服務等級要求"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "In a banking environment, audits are often required by regulators to ensure compliance with laws, standards, and policies related to security, privacy, and financial reporting."
+  },
+  "Q60": {
+    "question_en": "A security administrator is deploying a DLP solution to prevent the exfiltration of sensitive customer data. Which of the following should the administrator do first?",
+    "question_zh": "資安管理員部署 DLP 解決方案以防止敏感客戶資料外洩，應該先做什麼？",
+    "options": {
+      "A": {
+        "en": "Block access to cloud storage websites.",
+        "zh": "封鎖對雲端儲存網站的存取。"
+      },
+      "B": {
+        "en": "Create a rule to block outgoing email attachments.",
+        "zh": "建立規則以封鎖外寄的電子郵件附件。"
+      },
+      "C": {
+        "en": "Apply classifications to the data.",
+        "zh": "對資料套用分類。"
+      },
+      "D": {
+        "en": "Remove all user permissions from shares on the file server.",
+        "zh": "移除檔案伺服器共用上的所有使用者權限。"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Data classification is the first step in a DLP solution, as it helps to identify what data needs to be protected and how."
+  },
+  "Q61": {
+    "question_en": "Which of the following describes a security alerting and monitoring tool that collects system, application, and network logs from multiple sources in a centralized system?",
+    "question_zh": "哪一種工具能集中收集系統、應用與網路日誌，用於警示與監控？",
+    "options": {
+      "A": {
+        "en": "SIEM",
+        "zh": "安全資訊與事件管理（SIEM）"
+      },
+      "B": {
+        "en": "DLP",
+        "zh": "資料外洩防護（DLP）"
+      },
+      "C": {
+        "en": "IDS",
+        "zh": "入侵偵測系統（IDS）"
+      },
+      "D": {
+        "en": "SNMP",
+        "zh": "簡單網路管理協定（SNMP）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "SIEM (Security Information and Event Management) collects, analyzes, and correlates logs from multiple sources in a centralized system for security monitoring and alerting."
+  },
+  "Q62": {
+    "question_en": "Which of the following are cases in which an engineer should recommend the decommissioning of a network device? (Select two).",
+    "question_zh": "在什麼情況下應建議淘汰網路設備？（選兩項）",
+    "options": {
+      "A": {
+        "en": "The device has been moved from a production environment to a test environment.",
+        "zh": "該裝置已從生產環境移至測試環境。"
+      },
+      "B": {
+        "en": "The device is configured to use cleartext passwords.",
+        "zh": "該裝置設定為使用明文密碼。"
+      },
+      "C": {
+        "en": "The device is moved to an isolated segment on the enterprise network.",
+        "zh": "該裝置已被移動至企業網路中的隔離區段。"
+      },
+      "D": {
+        "en": "The device is moved to a different location in the enterprise.",
+        "zh": "該裝置已移動至企業內的其他地點。"
+      },
+      "E": {
+        "en": "The device's encryption level cannot meet organizational standards.",
+        "zh": "該裝置的加密等級無法達到組織標準。"
+      },
+      "F": {
+        "en": "The device is unable to receive authorized updates.",
+        "zh": "該裝置無法接收授權更新。"
+      }
+    },
+    "correct_answer": [
+      "B",
+      "E"
+    ],
+    "explanation": "Devices using cleartext passwords pose major security risks, and devices unable to meet encryption standards compromise data confidentiality."
+  },
+  "Q63": {
+    "question_en": "An administrator assists the legal and compliance team with ensuring information about customer transactions is archived for the proper time period. Which of the following data policies is the administrator carrying out?",
+    "question_zh": "管理員協助法務與合規團隊確保客戶交易資料正確保存。這是執行哪一項資料政策？",
+    "options": {
+      "A": {
+        "en": "Compromise",
+        "zh": "危害"
+      },
+      "B": {
+        "en": "Retention",
+        "zh": "保存"
+      },
+      "C": {
+        "en": "Analysis",
+        "zh": "分析"
+      },
+      "D": {
+        "en": "Transfer",
+        "zh": "轉移"
+      },
+      "E": {
+        "en": "Inventory",
+        "zh": "資產清冊"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "A data retention policy defines how long data should be stored and when it should be deleted or archived to comply with legal and regulatory requirements."
+  },
+  "Q64": {
+    "question_en": "A systems administrator is working on a solution with the following requirements: Provide a secure zone, Enforce a company-wide access control policy, Reduce the scope of threats. Which of the following is the systems administrator setting up?",
+    "question_zh": "系統管理員設計解決方案，需提供安全區域、實施存取控制政策並降低威脅範圍。這是什麼？",
+    "options": {
+      "A": {
+        "en": "Zero Trust",
+        "zh": "零信任架構"
+      },
+      "B": {
+        "en": "AAA",
+        "zh": "身分驗證、授權與記帳（AAA）"
+      },
+      "C": {
+        "en": "Non-repudiation",
+        "zh": "不可否認性"
+      },
+      "D": {
+        "en": "CIA",
+        "zh": "機密性、完整性與可用性（CIA）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Zero Trust is a security model that provides secure zones, enforces access control policies, and reduces threat scope by requiring continuous verification."
+  },
+  "Q65": {
+    "question_en": "A security administrator needs a method to secure data in an environment that includes some form of checks so that the administrator can track any changes. Which of the following should the administrator set up to achieve this goal?",
+    "question_zh": "資安管理員希望確保可追蹤變更並保護資料，應使用什麼方法？",
+    "options": {
+      "A": {
+        "en": "SPF",
+        "zh": "寄件者政策架構（SPF）"
+      },
+      "B": {
+        "en": "GPO",
+        "zh": "群組原則物件（GPO）"
+      },
+      "C": {
+        "en": "NAC",
+        "zh": "網路存取控制（NAC）"
+      },
+      "D": {
+        "en": "FIM",
+        "zh": "檔案完整性監控（FIM）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "FIM (File Integrity Monitoring) detects any changes or modifications to files, directories, or registry keys, allowing administrators to track unauthorized changes."
+  },
+  "Q66": {
+    "question_en": "Which of the following is the phase in the incident response process when a security analyst reviews roles and responsibilities?",
+    "question_zh": "在事件回應過程中，哪一階段會檢視角色與職責？",
+    "options": {
+      "A": {
+        "en": "Preparation",
+        "zh": "準備階段"
+      },
+      "B": {
+        "en": "Recovery",
+        "zh": "復原階段"
+      },
+      "C": {
+        "en": "Lessons learned",
+        "zh": "經驗教訓"
+      },
+      "D": {
+        "en": "Analysis",
+        "zh": "分析"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Preparation is the phase when security analysts review roles and responsibilities, as well as policies and procedures for handling incidents."
+  },
+  "Q67": {
+    "question_en": "A company is discarding a classified storage array and hires an outside vendor to complete the disposal. Which of the following should the company request from the vendor?",
+    "question_zh": "公司將淘汰一組分類儲存設備並外包處理，應向廠商索取什麼？",
+    "options": {
+      "A": {
+        "en": "Certification",
+        "zh": "證明"
+      },
+      "B": {
+        "en": "Inventory list",
+        "zh": "清單"
+      },
+      "C": {
+        "en": "Classification",
+        "zh": "分類"
+      },
+      "D": {
+        "en": "Proof of ownership",
+        "zh": "所有權證明"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "The company should request a certification that confirms the storage array has been disposed of securely and in compliance with the company's policies."
+  },
+  "Q68": {
+    "question_en": "Which of the following would be the best ways to ensure only authorized personnel can access a secure facility? (Select two).",
+    "question_zh": "下列哪兩項措施最能確保僅授權人員可進入安全設施？（選兩項）",
+    "options": {
+      "A": {
+        "en": "Fencing",
+        "zh": "圍籬"
+      },
+      "B": {
+        "en": "Video surveillance",
+        "zh": "影像監控"
+      },
+      "C": {
+        "en": "Badge access",
+        "zh": "識別證存取"
+      },
+      "D": {
+        "en": "Access control vestibule",
+        "zh": "門禁玄關"
+      },
+      "E": {
+        "en": "Sign-in sheet",
+        "zh": "簽到表"
+      },
+      "F": {
+        "en": "Sensor",
+        "zh": "感測器"
+      }
+    },
+    "correct_answer": [
+      "C",
+      "D"
+    ],
+    "explanation": "Badge access and access control vestibules are effective for ensuring only authorized personnel can access secure facilities through authentication and physical barriers."
+  },
+  "Q69": {
+    "question_en": "A company's marketing department collects, modifies, and stores sensitive customer data. The infrastructure team is responsible for securing the data while in transit and at rest. Which of the following data roles describes the customer?",
+    "question_zh": "行銷部門處理客戶敏感資料，基礎建設團隊負責資料安全。客戶的資料角色為？",
+    "options": {
+      "A": {
+        "en": "Processor",
+        "zh": "資料處理者"
+      },
+      "B": {
+        "en": "Custodian",
+        "zh": "資料保管人"
+      },
+      "C": {
+        "en": "Subject",
+        "zh": "資料主體"
+      },
+      "D": {
+        "en": "Owner",
+        "zh": "資料擁有者"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "The customer is the data subject - the individual to whom the personal data relates."
+  },
+  "Q70": {
+    "question_en": "Malware spread across a company's network after an employee visited a compromised industry blog. Which of the following best describes this type of attack?",
+    "question_zh": "員工瀏覽一個受感染的產業部落格後，惡意程式散佈至整個網路。這是哪種攻擊？",
+    "options": {
+      "A": {
+        "en": "Impersonation",
+        "zh": "冒充"
+      },
+      "B": {
+        "en": "Disinformation",
+        "zh": "假資訊"
+      },
+      "C": {
+        "en": "Watering-hole",
+        "zh": "水坑攻擊"
+      },
+      "D": {
+        "en": "Smishing",
+        "zh": "簡訊詐騙"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "A watering-hole attack targets groups of users by infecting websites that they commonly visit, in this case a compromised industry blog."
+  },
+  "Q71": {
+    "question_en": "After a recent ransomware attack on a company's system, an administrator reviewed the log files. Which of the following control types did the administrator use?",
+    "question_zh": "公司發生勒索攻擊後，管理員檢查日誌檔。這是哪種控制類型的應用？",
+    "options": {
+      "A": {
+        "en": "Compensating",
+        "zh": "補償性控制"
+      },
+      "B": {
+        "en": "Detective",
+        "zh": "偵測性控制"
+      },
+      "C": {
+        "en": "Preventive",
+        "zh": "預防性控制"
+      },
+      "D": {
+        "en": "Corrective",
+        "zh": "修正性控制"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Detective controls are security measures designed to identify and monitor malicious activity. Reviewing log files is a detective control used to discover what happened during the attack."
+  },
+  "Q72": {
+    "question_en": "Which of the following agreement types defines the time frame in which a vendor needs to respond?",
+    "question_zh": "下列哪一種協議定義了廠商應在何時做出回應？",
+    "options": {
+      "A": {
+        "en": "SOW",
+        "zh": "工作說明書（SOW）"
+      },
+      "B": {
+        "en": "SLA",
+        "zh": "翻譯待補"
+      },
+      "C": {
+        "en": "MOA",
+        "zh": "翻譯待補"
+      },
+      "D": {
+        "en": "MOU",
+        "zh": "合作備忘錄（MOU）"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "A Service Level Agreement (SLA) defines expectations and responsibilities including response time frames between a service provider and customer."
+  },
+  "Q73": {
+    "question_en": "A Chief Information Security Officer wants to monitor the company's servers for SQLi attacks and allow for comprehensive investigations if an attack occurs. The company uses SSL decryption to allow traffic monitoring. Which of the following strategies would best accomplish this goal?",
+    "question_zh": "CISO 想監控伺服器是否遭 SQL 注入攻擊並調查事件，應採取哪種策略？",
+    "options": {
+      "A": {
+        "en": "Logging all NetFlow traffic into a SIEM",
+        "zh": "將所有 NetFlow 流量記錄到 SIEM 中"
+      },
+      "B": {
+        "en": "Deploying network traffic sensors on the same subnet as the servers",
+        "zh": "在與伺服器相同的子網路上部署網路流量感測器"
+      },
+      "C": {
+        "en": "Logging endpoint and OS-specific security logs",
+        "zh": "記錄端點與作業系統相關的安全日誌"
+      },
+      "D": {
+        "en": "Enabling full packet capture for traffic entering and exiting the servers",
+        "zh": "Enabling full packet capture for traffic entering and exiting the servers"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Full packet capture records all network traffic, providing complete content and context needed for detailed SQLi attack analysis and investigation."
+  },
+  "Q74": {
+    "question_en": "A client demands at least 99.99% uptime from a service provider's hosted security services. Which of the following documents includes the information the service provider should return to the client?",
+    "question_zh": "客戶要求服務供應商提供 99.99% 的服務可用性。哪份文件會包含這項需求？",
+    "options": {
+      "A": {
+        "en": "MOA",
+        "zh": "協議備忘錄（MOA）"
+      },
+      "B": {
+        "en": "SOW",
+        "zh": "工作說明書（SOW）"
+      },
+      "C": {
+        "en": "MOU",
+        "zh": "合作備忘錄（MOU）"
+      },
+      "D": {
+        "en": "SLA",
+        "zh": "服務等級協議（SLA）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "A Service Level Agreement (SLA) defines the level of service expected, including uptime requirements like 99.99% availability."
+  },
+  "Q75": {
+    "question_en": "A company is adding a clause to its AUP that states employees are not allowed to modify the operating system on mobile devices. Which of the following vulnerabilities is the organization addressing?",
+    "question_zh": "公司在 AUP 中新增條款，禁止員工修改行動裝置的作業系統。此條款是為了防範哪一種風險？",
+    "options": {
+      "A": {
+        "en": "Cross-site scripting",
+        "zh": "跨網站指令碼攻擊"
+      },
+      "B": {
+        "en": "Buffer overflow",
+        "zh": "緩衝區溢位"
+      },
+      "C": {
+        "en": "Jailbreaking",
+        "zh": "越獄"
+      },
+      "D": {
+        "en": "Side loading",
+        "zh": "側載"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Jailbreaking is the process of removing manufacturer restrictions on mobile devices, exposing them to security risks. The AUP clause addresses this vulnerability."
+  },
+  "Q76": {
+    "question_en": "Which of the following practices would be best to prevent an insider from introducing malicious code into a company's development process?",
+    "question_zh": "要防止內部人員在開發過程中植入惡意程式碼，最佳做法為？",
+    "options": {
+      "A": {
+        "en": "Code scanning for vulnerabilities",
+        "zh": "漏洞掃描程式碼"
+      },
+      "B": {
+        "en": "Open-source component usage",
+        "zh": "使用開源元件"
+      },
+      "C": {
+        "en": "Quality assurance testing",
+        "zh": "品質保證測試"
+      },
+      "D": {
+        "en": "Peer review and approval",
+        "zh": "同儕審查與核准"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Peer review and approval involves having other developers review code before deployment, helping detect and prevent malicious code insertion."
+  },
+  "Q77": {
+    "question_en": "A systems administrator is creating a script that would save time and prevent human error when performing account creation for a large number of end users. Which of the following would be a good use case for this task?",
+    "question_zh": "系統管理員希望透過腳本自動建立多名使用者帳號，這是哪一種技術應用？",
+    "options": {
+      "A": {
+        "en": "Off-the-shelf software",
+        "zh": "現成軟體"
+      },
+      "B": {
+        "en": "Orchestration",
+        "zh": "編排"
+      },
+      "C": {
+        "en": "Baseline",
+        "zh": "基準設定／基線"
+      },
+      "D": {
+        "en": "Policy enforcement",
+        "zh": "政策執行／規範強制執行"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Orchestration is the process of automating multiple tasks across different systems, perfect for automating account creation for many users."
+  },
+  "Q78": {
+    "question_en": "After an audit, an administrator discovers all users have access to confidential data on a file server. Which of the following should the administrator use to restrict access to the data quickly?",
+    "question_zh": "稽核後發現所有使用者都能存取機密資料，應快速限制存取權限，應用哪一種方法？",
+    "options": {
+      "A": {
+        "en": "Group Policy",
+        "zh": "群組原則"
+      },
+      "B": {
+        "en": "Content filtering",
+        "zh": "內容過濾"
+      },
+      "C": {
+        "en": "Data loss prevention",
+        "zh": "資料遺失防護"
+      },
+      "D": {
+        "en": "Access control lists",
+        "zh": "存取控制清單"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Access control lists (ACLs) can quickly modify access rights to restrict which users can access confidential data on the file server."
+  },
+  "Q79": {
+    "question_en": "A Chief Information Security Officer (CISO) wants to explicitly raise awareness about the increase of ransomware-as-a-service in a report to the management team. Which of the following best describes the threat actor in the CISO's report?",
+    "question_zh": "CISO 想在報告中強調勒索軟體即服務的增加，這類攻擊者屬於哪一類？",
+    "options": {
+      "A": {
+        "en": "Insider threat",
+        "zh": "內部威脅"
+      },
+      "B": {
+        "en": "Hacktivist",
+        "zh": "駭客活動家"
+      },
+      "C": {
+        "en": "Nation-state",
+        "zh": "國家級駭客"
+      },
+      "D": {
+        "en": "Organized crime",
+        "zh": "組織犯罪"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Ransomware-as-a-service is typically operated by organized crime groups who sell or rent ransomware tools for profit."
+  },
+  "Q80": {
+    "question_en": "A small business uses kiosks on the sales floor to display product information for customers. A security team discovers the kiosks use end-of-life operating systems. Which of the following is the security team most likely to document as a security implication of the current architecture?",
+    "question_zh": "公司在銷售現場使用資訊站展示產品資訊，但作業系統已過時。這樣的安全風險為？",
+    "options": {
+      "A": {
+        "en": "Patch availability",
+        "zh": "修補程式可用性"
+      },
+      "B": {
+        "en": "Product software compatibility",
+        "zh": "產品軟體相容性"
+      },
+      "C": {
+        "en": "Ease of recovery",
+        "zh": "復原容易性"
+      },
+      "D": {
+        "en": "Cost of replacement",
+        "zh": "更換成本"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "End-of-life operating systems no longer receive security patches, making them vulnerable to exploits and attacks."
+  },
+  "Q81": {
+    "question_en": "A company is developing a critical system for the government and storing project information on a fileshare. Which of the following describes how this data will most likely be classified? (Select two).",
+    "question_zh": "公司正在為政府開發關鍵系統，並將專案資料儲存在檔案共享區中。這些資料應該如何分類？（選兩項）",
+    "options": {
+      "A": {
+        "en": "Private",
+        "zh": "私人"
+      },
+      "B": {
+        "en": "Confidential",
+        "zh": "機密"
+      },
+      "C": {
+        "en": "Public",
+        "zh": "公開"
+      },
+      "D": {
+        "en": "Operational",
+        "zh": "營運"
+      },
+      "E": {
+        "en": "Urgent",
+        "zh": "緊急"
+      },
+      "F": {
+        "en": "Restricted",
+        "zh": "限制"
+      }
+    },
+    "correct_answer": [
+      "B",
+      "F"
+    ],
+    "explanation": "Government critical system data is typically classified as Confidential and Restricted due to national security implications."
+  },
+  "Q82": {
+    "question_en": "After reviewing a vulnerability scanning report, a security analyst performs a test and discovers the vulnerability is a false positive. Which of the following would the security analyst conclude for this reported vulnerability?",
+    "question_zh": "安全分析師檢閱弱點掃描報告後測試發現該弱點為誤報，應做何結論？",
+    "options": {
+      "A": {
+        "en": "It is a false positive.",
+        "zh": "這是誤報。"
+      },
+      "B": {
+        "en": "A rescan is required.",
+        "zh": "需要重新掃描。"
+      },
+      "C": {
+        "en": "It is considered noise.",
+        "zh": "此訊息視為雜訊。"
+      },
+      "D": {
+        "en": "Compensating controls exist.",
+        "zh": "存在補償控制措施。"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "The test showed compensating controls are in place that mitigate the vulnerability, making it a false positive in the context of actual risk."
+  },
+  "Q83": {
+    "question_en": "A security consultant needs secure, remote access to a client environment. Which of the following should the security consultant most likely use to gain access?",
+    "question_zh": "安全顧問需要安全地遠端存取客戶環境，應使用哪一項技術？",
+    "options": {
+      "A": {
+        "en": "EAP",
+        "zh": "可擴充驗證協定（EAP）"
+      },
+      "B": {
+        "en": "DHCP",
+        "zh": "動態主機設定協定（DHCP）"
+      },
+      "C": {
+        "en": "IPSec",
+        "zh": "IPSec（網際協議安全性）"
+      },
+      "D": {
+        "en": "NAT",
+        "zh": "網路位址轉換（NAT）"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "IPSec provides secure communication over IP networks through encryption and authentication, ideal for secure remote access."
+  },
+  "Q84": {
+    "question_en": "Which of the following best practices gives administrators a set period to perform changes to an operational system to ensure availability and minimize business impacts?",
+    "question_zh": "哪一種最佳做法可讓管理員在維護期間進行變更時降低對營運的影響？",
+    "options": {
+      "A": {
+        "en": "Impact analysis",
+        "zh": "影響分析"
+      },
+      "B": {
+        "en": "Scheduled downtime",
+        "zh": "排定停機時間"
+      },
+      "C": {
+        "en": "Backout plan",
+        "zh": "回退計畫"
+      },
+      "D": {
+        "en": "Change management boards",
+        "zh": "變更管理委員會"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Scheduled downtime is a planned period for maintenance and changes, minimizing business impact while ensuring system availability."
+  },
+  "Q85": {
+    "question_en": "Which of the following actions could a security engineer take to ensure workstations and servers are properly monitored for unauthorized changes and software?",
+    "question_zh": "資安工程師該採取哪一行動，以確保工作站與伺服器能偵測未經授權的變更與軟體？",
+    "options": {
+      "A": {
+        "en": "Configure all systems to log scheduled tasks.",
+        "zh": "設定所有系統記錄排程任務。"
+      },
+      "B": {
+        "en": "Collect and monitor all traffic exiting the network.",
+        "zh": "收集並監控所有離開網路的流量。"
+      },
+      "C": {
+        "en": "Block traffic based on known malicious signatures.",
+        "zh": "根據已知惡意特徵封鎖流量。"
+      },
+      "D": {
+        "en": "Install endpoint management software on all systems.",
+        "zh": "在所有系統安裝端點管理軟體。"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Endpoint management software allows monitoring and control of workstations and servers, detecting unauthorized changes and software installations."
+  },
+  "Q86": {
+    "question_en": "After a security awareness training session, a user called the IT help desk and reported a suspicious call. The suspicious caller stated that the Chief Financial Officer wanted credit card information in order to close an invoice. Which of the following topics did the user recognize from the training?",
+    "question_zh": "使用者接受資安訓練後，致電 IT 回報可疑來電，聲稱財務長要求信用卡資料結帳。此為何種攻擊手法？",
+    "options": {
+      "A": {
+        "en": "Insider threat",
+        "zh": "內部威脅"
+      },
+      "B": {
+        "en": "Email phishing",
+        "zh": "電子郵件網路釣魚"
+      },
+      "C": {
+        "en": "Social engineering",
+        "zh": "社交工程"
+      },
+      "D": {
+        "en": "Executive whaling",
+        "zh": "高階主管網路釣魚"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Social engineering involves manipulating people into divulging confidential information. The user recognized this attempt from the training."
+  },
+  "Q87": {
+    "question_en": "Which of the following exercises should an organization use to improve its incident response process?",
+    "question_zh": "哪一種演練有助於組織改善其事件回應流程？",
+    "options": {
+      "A": {
+        "en": "Tabletop",
+        "zh": "桌面演練"
+      },
+      "B": {
+        "en": "Replication",
+        "zh": "複製演練"
+      },
+      "C": {
+        "en": "Failover",
+        "zh": "故障轉移"
+      },
+      "D": {
+        "en": "Recovery",
+        "zh": "復原階段"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "A tabletop exercise is a discussion-based exercise that tests incident response plans and procedures without actual system impacts."
+  },
+  "Q88": {
+    "question_en": "Which of the following is used to validate a certificate when it is presented to a user?",
+    "question_zh": "當使用者呈現憑證時，哪一項技術可用來驗證該憑證？",
+    "options": {
+      "A": {
+        "en": "OCSP",
+        "zh": "線上憑證狀態協定（OCSP）"
+      },
+      "B": {
+        "en": "CSR",
+        "zh": "憑證簽署請求（CSR）"
+      },
+      "C": {
+        "en": "CA",
+        "zh": "憑證授權中心（CA）"
+      },
+      "D": {
+        "en": "CRC",
+        "zh": "循環冗餘檢查（CRC）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "OCSP (Online Certificate Status Protocol) allows applications to check the revocation status of a certificate in real-time."
+  },
+  "Q89": {
+    "question_en": "A newly identified network access vulnerability has been found in the OS of legacy IoT devices. Which of the following would best mitigate this vulnerability quickly?",
+    "question_zh": "已發現舊型 IoT 裝置的作業系統存在網路存取漏洞，應快速採取何種對策？",
+    "options": {
+      "A": {
+        "en": "Insurance",
+        "zh": "保險"
+      },
+      "B": {
+        "en": "Patching",
+        "zh": "套用修補程式"
+      },
+      "C": {
+        "en": "Segmentation",
+        "zh": "網路區隔"
+      },
+      "D": {
+        "en": "Replacement",
+        "zh": "替換"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Segmentation can quickly isolate vulnerable IoT devices from other network resources, reducing attack surface and impact."
+  },
+  "Q90": {
+    "question_en": "A bank insists all of its vendors must prevent data loss on stolen laptops. Which of the following strategies is the bank requiring?",
+    "question_zh": "銀行要求所有廠商需防止筆電遺失時發生資料外洩，這是哪一種策略？",
+    "options": {
+      "A": {
+        "en": "Encryption at rest",
+        "zh": "靜態資料加密"
+      },
+      "B": {
+        "en": "Masking",
+        "zh": "遮蔽"
+      },
+      "C": {
+        "en": "Data classification",
+        "zh": "資料分類"
+      },
+      "D": {
+        "en": "Permission restrictions",
+        "zh": "權限限制"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Encryption at rest protects data stored on devices by making it unreadable without the decryption key, preventing data loss from stolen laptops."
+  },
+  "Q91": {
+    "question_en": "Which of the following would be best suited for constantly changing environments?",
+    "question_zh": "下列哪一項最適用於快速變動的環境？",
+    "options": {
+      "A": {
+        "en": "RTOS",
+        "zh": "即時作業系統（RTOS）"
+      },
+      "B": {
+        "en": "Containers",
+        "zh": "容器"
+      },
+      "C": {
+        "en": "Embedded systems",
+        "zh": "嵌入式系統"
+      },
+      "D": {
+        "en": "SCADA",
+        "zh": "監控控制與資料擷取系統（SCADA）"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Containers are lightweight, portable, scalable, and easy to deploy and update, making them ideal for constantly changing environments."
+  },
+  "Q92": {
+    "question_en": "A security analyst scans a company's public network and discovers a host is running a remote desktop that can be used to access the production network. Which of the following changes should the security analyst recommend?",
+    "question_zh": "安全分析師發現一主機在公網上開啟遠端桌面且可存取內部網路，應建議哪一項修正措施？",
+    "options": {
+      "A": {
+        "en": "Changing the remote desktop port to a non-standard number",
+        "zh": "將遠端桌面埠更改為非標準埠號"
+      },
+      "B": {
+        "en": "Setting up a VPN and placing the jump server inside the firewall",
+        "zh": "設定 VPN 並將跳板伺服器置於防火牆內部"
+      },
+      "C": {
+        "en": "Using a proxy for web connections from the remote desktop server",
+        "zh": "遠端桌面伺服器使用代理伺服器"
+      },
+      "D": {
+        "en": "Connecting the remote server to the domain and increasing the password length",
+        "zh": "將遠端伺服器加入網域並增加密碼長度"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "Setting up a VPN and placing the jump server inside the firewall provides secure access while removing direct exposure to the public network."
+  },
+  "Q93": {
+    "question_en": "Which of the following involves an attempt to take advantage of database misconfigurations?",
+    "question_zh": "下列哪一項攻擊會利用資料庫設定錯誤？",
+    "options": {
+      "A": {
+        "en": "Buffer overflow",
+        "zh": "緩衝區溢位"
+      },
+      "B": {
+        "en": "SQL injection",
+        "zh": "SQL 注入攻擊"
+      },
+      "C": {
+        "en": "VM escape",
+        "zh": "虛擬機逃逸攻擊"
+      },
+      "D": {
+        "en": "Memory injection",
+        "zh": "記憶體注入攻擊"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "SQL injection exploits database misconfigurations or flaws in application code to execute unauthorized database commands."
+  },
+  "Q94": {
+    "question_en": "An organization would like to store customer data on a separate part of the network that is not accessible to users on the main corporate network. Which of the following should the administrator use to accomplish this goal?",
+    "question_zh": "組織希望將客戶資料儲存在與內部網路隔離的位置，應採用哪一種方法？",
+    "options": {
+      "A": {
+        "en": "Segmentation",
+        "zh": "網路區隔"
+      },
+      "B": {
+        "en": "Isolation",
+        "zh": "隔離"
+      },
+      "C": {
+        "en": "Patching",
+        "zh": "套用修補程式"
+      },
+      "D": {
+        "en": "Encryption",
+        "zh": "加密"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Segmentation divides the network into smaller isolated segments, allowing customer data to be stored separately from the main network."
+  },
+  "Q95": {
+    "question_en": "Which of the following is used to quantitatively measure the criticality of a vulnerability?",
+    "question_zh": "哪一項用來量化漏洞的嚴重程度？",
+    "options": {
+      "A": {
+        "en": "CVE",
+        "zh": "共同漏洞與曝露編號（CVE）"
+      },
+      "B": {
+        "en": "CVSS",
+        "zh": "通用漏洞評分系統（CVSS）"
+      },
+      "C": {
+        "en": "CIA",
+        "zh": "機密性、完整性與可用性（CIA）"
+      },
+      "D": {
+        "en": "CERT",
+        "zh": "電腦緊急應變小組（CERT）"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "CVSS (Common Vulnerability Scoring System) provides standardized numerical scores to assess vulnerability severity and risk."
+  },
+  "Q96": {
+    "question_en": "A technician is opening ports on a firewall for a new system being deployed and supported by a SaaS provider. Which of the following is a risk in the new system?",
+    "question_zh": "管理員為 SaaS 支援的新系統開放防火牆埠，這可能帶來哪一種風險？",
+    "options": {
+      "A": {
+        "en": "Default credentials",
+        "zh": "預設帳號密碼"
+      },
+      "B": {
+        "en": "Non-segmented network",
+        "zh": "非區隔網路"
+      },
+      "C": {
+        "en": "Supply chain vendor",
+        "zh": "供應鏈廠商"
+      },
+      "D": {
+        "en": "Vulnerable software",
+        "zh": "易受攻擊的軟體"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Opening firewall ports for SaaS applications may expose vulnerable software to external threats."
+  },
+  "Q97": {
+    "question_en": "Which of the following security concepts is the best reason for permissions on a human resources fileshare to follow the principle of least privilege?",
+    "question_zh": "HR 資料共用應採用最小權限原則以保障哪一項資安特性？",
+    "options": {
+      "A": {
+        "en": "Integrity",
+        "zh": "完整性"
+      },
+      "B": {
+        "en": "Availability",
+        "zh": "可用性"
+      },
+      "C": {
+        "en": "Confidentiality",
+        "zh": "機密性"
+      },
+      "D": {
+        "en": "Non-repudiation",
+        "zh": "不可否認性"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Confidentiality ensures sensitive HR data is only accessible to authorized users, which least privilege helps enforce."
+  },
+  "Q98": {
+    "question_en": "Security controls in a data center are being reviewed to ensure data is properly protected and that human life considerations are included. Which of the following best describes how the controls should be set up?",
+    "question_zh": "在資料中心審查安全控制措施時，應如何設定以同時保障資料與人身安全？",
+    "options": {
+      "A": {
+        "en": "Remote access points should fail closed.",
+        "zh": "遠端存取點應設為失效時封閉。"
+      },
+      "B": {
+        "en": "Logging controls should fail open.",
+        "zh": "記錄控制應設為失效時開啟。"
+      },
+      "C": {
+        "en": "Safety controls should fail open.",
+        "zh": "安全控制應設為失效時開啟。"
+      },
+      "D": {
+        "en": "Logical security controls should fail closed.",
+        "zh": "邏輯安全控制應設為失效時封閉。"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Safety controls should fail open to protect human life, ensuring emergency exits remain accessible during failures."
+  },
+  "Q99": {
+    "question_en": "Which of the following is the most common data loss path for an air-gapped network?",
+    "question_zh": "對於隔離網路（air-gapped network）來說，最常見的資料外洩途徑是什麼？",
+    "options": {
+      "A": {
+        "en": "Bastion host",
+        "zh": "堡壘主機"
+      },
+      "B": {
+        "en": "Unsecured Bluetooth",
+        "zh": "未加密的藍牙"
+      },
+      "C": {
+        "en": "Unpatched OS",
+        "zh": "未套用修補的作業系統"
+      },
+      "D": {
+        "en": "Removable devices",
+        "zh": "可移動裝置"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Removable devices like USB drives are the most common way data can be transferred to/from air-gapped networks."
+  },
+  "Q100": {
+    "question_en": "Which of the following can best protect against an employee inadvertently installing malware on a company system?",
+    "question_zh": "哪一項控制最能防止員工無意間在公司系統安裝惡意程式？",
+    "options": {
+      "A": {
+        "en": "Host-based firewall",
+        "zh": "主機型防火牆"
+      },
+      "B": {
+        "en": "System isolation",
+        "zh": "系統隔離"
+      },
+      "C": {
+        "en": "Least privilege",
+        "zh": "最小權限"
+      },
+      "D": {
+        "en": "Application allow list",
+        "zh": "應用程式允許清單"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "An application allow list prevents execution of any unauthorized software, including malware inadvertently installed by employees."
+  },
+  "Q101": {
+    "question_en": "An organization is struggling with scaling issues on its VPN concentrator and internet circuit due to remote work. The organization is looking for a software solution that will allow it to reduce traffic on the VPN and internet circuit, while still providing encrypted tunnel access to the data center and monitoring of remote employee internet traffic. Which of the following will help achieve these objectives?",
+    "question_zh": "組織的 VPN 集中器與網路負載因遠端工作而面臨擴展問題。若要減少 VPN 與網路流量並保持加密與監控，應採用哪一項解決方案？",
+    "options": {
+      "A": {
+        "en": "Deploying a SASE solution to remote employees",
+        "zh": "部署 SASE 解決方案給遠端員工"
+      },
+      "B": {
+        "en": "Building a load-balanced VPN solution with redundant internet",
+        "zh": "建立具備冗餘網路的負載平衡 VPN 解決方案"
+      },
+      "C": {
+        "en": "Purchasing a low-cost SD-WAN solution for VPN traffic",
+        "zh": "購買低成本 SD-WAN 解決方案以支援 VPN 流量"
+      },
+      "D": {
+        "en": "Using a cloud provider to create additional VPN concentrators",
+        "zh": "使用雲端供應商建立額外的 VPN 集中器"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "SASE (Secure Access Service Edge) combines network and security functions in the cloud, reducing VPN traffic while providing secure access."
+  },
+  "Q102": {
+    "question_en": "A company's end users are reporting that they are unable to reach external websites. After reviewing the performance data for the DNS servers, the analyst discovers that the CPU, disk, and memory usage are minimal, but the network interface is flooded with inbound traffic. Network logs show only a small number of DNS queries sent to this server. Which of the following best describes what the security analyst is seeing?",
+    "question_zh": "使用者無法連線外部網站，DNS 伺服器的 CPU、磁碟與記憶體使用率正常，但網路流量大量湧入。最可能的原因是？",
+    "options": {
+      "A": {
+        "en": "Concurrent session usage",
+        "zh": "同時會話使用量"
+      },
+      "B": {
+        "en": "Secure DNS cryptographic downgrade",
+        "zh": "安全 DNS 加密降級攻擊"
+      },
+      "C": {
+        "en": "On-path resource consumption",
+        "zh": "中途資源消耗攻擊"
+      },
+      "D": {
+        "en": "Reflected denial of service",
+        "zh": "反射式阻斷服務攻擊"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "A reflected DoS attack uses spoofed source IPs to send requests that generate large responses, flooding the victim's network interface."
+  },
+  "Q103": {
+    "question_en": "A systems administrator wants to prevent users from being able to access data based on their responsibilities. The administrator also wants to apply the required access structure via a simplified format. Which of the following should the administrator apply to the site recovery resource group?",
+    "question_zh": "系統管理員希望根據使用者職責限制資料存取，並希望簡化權限設定。應套用哪種方法？",
+    "options": {
+      "A": {
+        "en": "RBAC",
+        "zh": "角色基礎存取控制（RBAC）"
+      },
+      "B": {
+        "en": "ACL",
+        "zh": "存取控制清單（ACL）"
+      },
+      "C": {
+        "en": "SAML",
+        "zh": "安全性斷言標記語言（SAML）"
+      },
+      "D": {
+        "en": "GPO",
+        "zh": "群組原則物件（GPO）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "RBAC (Role-Based Access Control) simplifies permission management by assigning access rights based on roles rather than individual users."
+  },
+  "Q104": {
+    "question_en": "One of a company's vendors sent an analyst a security bulletin that recommends a BIOS update. Which of the following vulnerability types is being addressed by the patch?",
+    "question_zh": "供應商建議套用 BIOS 更新，此更新修補哪類型漏洞？",
+    "options": {
+      "A": {
+        "en": "Virtualization",
+        "zh": "虛擬化技術"
+      },
+      "B": {
+        "en": "Firmware",
+        "zh": "韌體"
+      },
+      "C": {
+        "en": "Application",
+        "zh": "應用程式"
+      },
+      "D": {
+        "en": "Operating system",
+        "zh": "作業系統"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "BIOS is firmware that controls basic hardware functions. A BIOS update addresses firmware vulnerabilities."
+  },
+  "Q105": {
+    "question_en": "A security analyst locates a potentially malicious video file on a server and needs to identify both the creation date and the file's creator. Which of the following actions would most likely give the security analyst the information required?",
+    "question_zh": "資安分析師在伺服器上發現可疑影片檔，需要查詢建立時間與建立者。應採取哪一項行動？",
+    "options": {
+      "A": {
+        "en": "Obtain the file's SHA-256 hash.",
+        "zh": "取得檔案的 SHA-256 雜湊值。"
+      },
+      "B": {
+        "en": "Use hexdump on the file's contents.",
+        "zh": "對檔案內容使用十六進位轉儲。"
+      },
+      "C": {
+        "en": "Check endpoint logs.",
+        "zh": "檢查端點日誌。"
+      },
+      "D": {
+        "en": "Query the file's metadata.",
+        "zh": "查詢檔案的元資料。"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Metadata contains information about files including creation date, author, and other attributes useful for forensic analysis."
+  },
+  "Q106": {
+    "question_en": "An enterprise security team is researching a new security architecture to better protect the company's networks and applications against the latest cyberthreats. The company has a fully remote workforce. The solution should be highly redundant and enable users to connect to a VPN with an integrated, software-based firewall. Which of the following solutions meets these requirements?",
+    "question_zh": "公司需保護全遠端員工的網路與應用，並使用整合 VPN 的軟體型防火牆與高冗餘方案，應採用？",
+    "options": {
+      "A": {
+        "en": "IPS",
+        "zh": "入侵防禦系統（IPS）"
+      },
+      "B": {
+        "en": "SIEM",
+        "zh": "安全資訊與事件管理（SIEM）"
+      },
+      "C": {
+        "en": "SASE",
+        "zh": "安全接取服務邊緣（SASE）"
+      },
+      "D": {
+        "en": "CASB",
+        "zh": "雲端存取安全代理（CASB）"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "SASE provides cloud-based security with integrated VPN and firewall capabilities, perfect for remote workforce protection."
+  },
+  "Q107": {
+    "question_en": "A security engineer is working to address the growing risks that shadow IT services are introducing to the organization. The organization has taken a cloud-first approach and does not have an on-premises IT infrastructure. Which of the following would best secure the organization?",
+    "question_zh": "公司採用雲端優先策略且無本地 IT 設備，資安工程師需控制 Shadow IT，應採取什麼措施？",
+    "options": {
+      "A": {
+        "en": "Upgrading to a next-generation firewall",
+        "zh": "升級至下一代防火牆"
+      },
+      "B": {
+        "en": "Deploying an appropriate in-line CASB solution",
+        "zh": "部署合適的內嵌式 CASB 解決方案"
+      },
+      "C": {
+        "en": "Conducting user training on software policies",
+        "zh": "對用戶進行軟體政策訓練"
+      },
+      "D": {
+        "en": "Configuring double key encryption in SaaS platforms",
+        "zh": "在 SaaS 平台中設定雙重金鑰加密"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "A CASB (Cloud Access Security Broker) provides visibility and control over shadow IT services in cloud environments."
+  },
+  "Q108": {
+    "question_en": "An enterprise has been experiencing attacks focused on exploiting vulnerabilities in older browser versions with well-known exploits. Which of the following security solutions should be configured to best provide the ability to monitor and block these known signature-based attacks?",
+    "question_zh": "公司遭受攻擊，對象為舊版瀏覽器的已知漏洞。應使用哪一項解決方案阻擋這些攻擊？",
+    "options": {
+      "A": {
+        "en": "ACL",
+        "zh": "存取控制清單（ACL）"
+      },
+      "B": {
+        "en": "DLP",
+        "zh": "資料外洩防護（DLP）"
+      },
+      "C": {
+        "en": "IDS",
+        "zh": "入侵偵測系統（IDS）"
+      },
+      "D": {
+        "en": "IPS",
+        "zh": "入侵防禦系統（IPS）"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "An IPS (Intrusion Prevention System) can monitor and actively block known signature-based attacks in real-time."
+  },
+  "Q109": {
+    "question_en": "During the onboarding process, an employee needs to create a password for an intranet account. The password must include ten characters, numbers, and letters, and two special characters. Once the password is created, the company will grant the employee access to other company-owned websites based on the intranet profile. Which of the following access management concepts is the company most likely using? (Select two).",
+    "question_zh": "新員工建立內部帳號密碼，需包含 10 字元、數字、字母與兩個特殊符號，建立後可登入多個平台。此設計體現哪兩項概念？（選兩項）",
+    "options": {
+      "A": {
+        "en": "Federation",
+        "zh": "聯合認證"
+      },
+      "B": {
+        "en": "Identity proofing",
+        "zh": "身份驗證"
+      },
+      "C": {
+        "en": "Password complexity",
+        "zh": "密碼複雜度"
+      },
+      "D": {
+        "en": "Default password changes",
+        "zh": "預設密碼變更"
+      },
+      "E": {
+        "en": "Password manager",
+        "zh": "密碼管理器"
+      },
+      "F": {
+        "en": "Open authentication",
+        "zh": "開放式認證"
+      }
+    },
+    "correct_answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "Federation allows single sign-on across multiple sites, and password complexity requirements ensure strong authentication."
+  },
+  "Q110": {
+    "question_en": "An administrator is reviewing a single server's security logs and discovers multiple failed login attempts. Which of the following best describes the action captured in this log file?",
+    "question_zh": "管理員發現某伺服器安全日誌中出現多次登入失敗，這代表？",
+    "options": {
+      "A": {
+        "en": "Brute-force attack",
+        "zh": "暴力破解攻擊"
+      },
+      "B": {
+        "en": "Privilege escalation",
+        "zh": "Privilege escalation"
+      },
+      "C": {
+        "en": "Failed password audit",
+        "zh": "Failed password audit"
+      },
+      "D": {
+        "en": "Forgotten password by the user",
+        "zh": "Forgotten password by the user"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Multiple failed login attempts in a short time period indicate a brute-force attack attempting to guess passwords."
+  },
+  "Q111": {
+    "question_en": "A security engineer is implementing FDE for all laptops in an organization. Which of the following are the most important for the engineer to consider as part of the planning process? (Select two).",
+    "question_zh": "資安工程師為筆電部署全磁碟加密，規劃時應考量哪些項目？（選兩項）",
+    "options": {
+      "A": {
+        "en": "Key escrow",
+        "zh": "金鑰託管"
+      },
+      "B": {
+        "en": "TPM presence",
+        "zh": "TPM 晶片存在"
+      },
+      "C": {
+        "en": "Digital signatures",
+        "zh": "數位簽章"
+      },
+      "D": {
+        "en": "Data tokenization",
+        "zh": "資料代幣化"
+      },
+      "E": {
+        "en": "Public key management",
+        "zh": "公鑰管理"
+      },
+      "F": {
+        "en": "Certificate authority linking",
+        "zh": "憑證授權中心連結"
+      }
+    },
+    "correct_answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "Key escrow ensures recovery of encrypted data if passwords are lost, and TPM presence enhances encryption security and performance."
+  },
+  "Q112": {
+    "question_en": "A hacker gained access to a system via a phishing attempt that was a direct result of a user clicking a suspicious link. The link laterally deployed ransomware, which laid dormant for multiple weeks, across the network. Which of the following would have mitigated the spread?",
+    "question_zh": "駭客透過網釣連結進入系統並橫向散播勒索軟體，潛伏數週。應用哪一項控制能減緩擴散？",
+    "options": {
+      "A": {
+        "en": "IPS",
+        "zh": "入侵防禦系統（IPS）"
+      },
+      "B": {
+        "en": "IDS",
+        "zh": "入侵偵測系統（IDS）"
+      },
+      "C": {
+        "en": "WAF",
+        "zh": "網站應用防火牆（WAF）"
+      },
+      "D": {
+        "en": "UAT",
+        "zh": "使用者驗收測試（UAT）"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "An IPS (Intrusion Prevention System) could have blocked the lateral movement and communication of the ransomware."
+  },
+  "Q113": {
+    "question_en": "Which of the following threat actors is the most likely to be hired by a foreign government to attack critical systems located in other countries?",
+    "question_zh": "哪一類攻擊者最可能由外國政府雇用來攻擊他國的關鍵系統？",
+    "options": {
+      "A": {
+        "en": "Hacktivist",
+        "zh": "駭客活動家"
+      },
+      "B": {
+        "en": "Whistleblower",
+        "zh": "檢舉者"
+      },
+      "C": {
+        "en": "Organized crime",
+        "zh": "組織犯罪"
+      },
+      "D": {
+        "en": "Unskilled attacker",
+        "zh": "無技術攻擊者"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Organized crime groups have the resources and skills to conduct sophisticated attacks and may be hired by foreign governments."
+  },
+  "Q114": {
+    "question_en": "Which of the following is used to add extra complexity before using a one-way data transformation algorithm?",
+    "question_zh": "下列哪一項用來在單向資料轉換演算法中增加複雜度？",
+    "options": {
+      "A": {
+        "en": "Key stretching",
+        "zh": "金鑰延伸"
+      },
+      "B": {
+        "en": "Data masking",
+        "zh": "資料遮蔽"
+      },
+      "C": {
+        "en": "Steganography",
+        "zh": "隱寫術"
+      },
+      "D": {
+        "en": "Salting",
+        "zh": "加鹽"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Salting adds random data to passwords before hashing, increasing complexity and preventing rainbow table attacks."
+  },
+  "Q115": {
+    "question_en": "An employee clicked a link in an email from a payment website that asked the employee to update contact information. The employee entered the log-in information but received a 'page not found' error message. Which of the following types of social engineering attacks occurred?",
+    "question_zh": "公司新任 CEO 想快速審視所有現有資安風險與狀態，應使用什麼？",
+    "options": {
+      "A": {
+        "en": "Brand impersonation",
+        "zh": "品牌冒充"
+      },
+      "B": {
+        "en": "Pretexting",
+        "zh": "預設藉口攻擊"
+      },
+      "C": {
+        "en": "Typosquatting",
+        "zh": "錯字域名攻擊"
+      },
+      "D": {
+        "en": "Phishing",
+        "zh": "網路釣魚"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "Phishing involves fraudulent emails that trick recipients into providing sensitive information through fake websites."
+  },
+  "Q116": {
+    "question_en": "An enterprise is trying to limit outbound DNS traffic originating from its internal network. Outbound DNS requests will only be allowed from one device with the IP address 10.50.10.25. Which of the following firewall ACLs will accomplish this goal?",
+    "question_zh": "安全顧問建議某 API 應加入身份驗證功能，以下哪一項最適合用於 Web 應用的身分驗證？",
+    "options": {
+      "A": {
+        "en": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53\nAccess list outbound deny 10.50.10.25 32 0.0.0.0/0 port 53",
+        "zh": "出站存取清單允許所有 IP 53 埠\n出站存取清單拒絕 IP 10.50.10.25 53 埠"
+      },
+      "B": {
+        "en": "Access list outbound permit 0.0.0.0/0 10.50.10.25 32 port 53\nAccess list outbound deny 0.0.0.0 0 0.0.0.0/0 port 53",
+        "zh": "出站存取清單允許 IP 10.50.10.25 53 埠\n出站存取清單拒絕所有 IP 53 埠"
+      },
+      "C": {
+        "en": "Access list outbound permit 0.0.0.0 0 0.0.0.0/0 port 53\nAccess list outbound deny 0.0.0.0/0 10.50.10.25 32 port 53",
+        "zh": "出站存取清單允許所有 IP 53 埠\n出站存取清單拒絕 IP 10.50.10.25 53 埠"
+      },
+      "D": {
+        "en": "Access list outbound permit 10.50.10.25 32 0.0.0.0/0 port 53\nAccess list outbound deny 0.0.0.0.0.0.0.0.0/0 port 53",
+        "zh": "出站存取清單允許 IP 10.50.10.25 53 埠\n出站存取清單拒絕所有 IP 53 埠"
+      }
+    },
+    "correct_answer": "D",
+    "explanation": "This ACL allows only the device at 10.50.10.25 to send outbound DNS requests on port 53, denying all others."
+  },
+  "Q117": {
+    "question_en": "A data administrator is configuring authentication for a SaaS application and would like to reduce the number of credentials employees need to maintain. The company prefers to use domain credentials to access new SaaS applications. Which of the following methods would allow this functionality?",
+    "question_zh": "企業發現某使用者在週末執行大量異常登入行為。該企業應採用什麼方法持續分析這類行為？",
+    "options": {
+      "A": {
+        "en": "SSO",
+        "zh": "單一登入（SSO）"
+      },
+      "B": {
+        "en": "LEAP",
+        "zh": "LEAP"
+      },
+      "C": {
+        "en": "MFA",
+        "zh": "MFA"
+      },
+      "D": {
+        "en": "PEAP",
+        "zh": "PEAP"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "SSO (Single Sign-On) allows users to access multiple applications with one set of domain credentials."
+  },
+  "Q118": {
+    "question_en": "Which of the following scenarios describes a possible business email compromise attack?",
+    "question_zh": "公司資訊長希望一個可集中檢視雲端安全、稽核與合規的平台，應該選擇哪一種工具？",
+    "options": {
+      "A": {
+        "en": "An employee receives a gift card request in an email that has an executive's name in the display field of the email.",
+        "zh": "員工收到電子郵件要求購買禮品卡，郵件顯示欄顯示高階主管姓名。"
+      },
+      "B": {
+        "en": "Employees who open an email attachment receive messages demanding payment in order to access files.",
+        "zh": "員工打開電子郵件附件後收到要求付款以存取檔案的訊息。"
+      },
+      "C": {
+        "en": "A service desk employee receives an email from the HR director asking for log-in credentials to a cloud administrator account.",
+        "zh": "客服人員收到來自人資主管的郵件，要求提供雲端管理員帳號密碼。"
+      },
+      "D": {
+        "en": "An employee receives an email with a link to a phishing site that is designed to look like the company's email portal.",
+        "zh": "員工收到包含指向仿冒公司郵件入口網站釣魚網站連結的郵件。"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "BEC attacks typically involve impersonating executives to request sensitive information like login credentials."
+  },
+  "Q119": {
+    "question_en": "A company prevented direct access from the database administrators' workstations to the network segment that contains database servers. Which of the following should a database administrator use to access the database servers?",
+    "question_zh": "哪一種攻擊類型專門針對特定個人設計誘騙手法？",
+    "options": {
+      "A": {
+        "en": "Jump server",
+        "zh": "跳板伺服器"
+      },
+      "B": {
+        "en": "RADIUS",
+        "zh": "遠端認證撥入用戶服務（RADIUS）"
+      },
+      "C": {
+        "en": "HSM",
+        "zh": "硬體安全模組（HSM）"
+      },
+      "D": {
+        "en": "Load balancer",
+        "zh": "負載平衡器"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "A jump server acts as an intermediary for secure access to servers not directly reachable from user workstations."
+  },
+  "Q120": {
+    "question_en": "An organization's internet-facing website was compromised when an attacker exploited a buffer overflow. Which of the following should the organization deploy to best protect against similar attacks in the future?",
+    "question_zh": "資料中心遭火災導致重大損失，為避免未來損害，最有效的長期對策為何？",
+    "options": {
+      "A": {
+        "en": "NGFW",
+        "zh": "下一代防火牆（NGFW）"
+      },
+      "B": {
+        "en": "WAF",
+        "zh": "網站應用防火牆（WAF）"
+      },
+      "C": {
+        "en": "TLS",
+        "zh": "傳輸層安全性協定（TLS）"
+      },
+      "D": {
+        "en": "SD-WAN",
+        "zh": "軟體定義廣域網（SD-WAN）"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "A WAF (Web Application Firewall) monitors and filters web traffic to protect against web application attacks like buffer overflows."
+  },
+  "Q121": {
+    "question_en": "An administrator notices that several users are logging in from suspicious IP addresses. After speaking with the users, the administrator determines that the employees were not logging in from those IP addresses and resets the affected users' passwords. Which of the following should the administrator implement to prevent this type of attack from succeeding in the future?",
+    "question_zh": "哪一項技術可用來驗證資料完整性與來源不可否認性？",
+    "options": {
+      "A": {
+        "en": "Multifactor authentication",
+        "zh": "多重因素認證（MFA）"
+      },
+      "B": {
+        "en": "Permissions assignment",
+        "zh": "權限分配"
+      },
+      "C": {
+        "en": "Access management",
+        "zh": "存取管理"
+      },
+      "D": {
+        "en": "Password complexity",
+        "zh": "密碼複雜度"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "MFA prevents unauthorized access even if passwords are compromised, requiring additional authentication factors."
+  },
+  "Q122": {
+    "question_en": "An employee receives a text message that appears to have been sent by the payroll department and is asking for credential verification. Which of the following social engineering techniques are being attempted? (Choose two).",
+    "question_zh": "哪一項設備最適合放在公司內部網路與外部網路之間？",
+    "options": {
+      "A": {
+        "en": "Typosquatting",
+        "zh": "錯字域名攻擊"
+      },
+      "B": {
+        "en": "Phishing",
+        "zh": "網路釣魚"
+      },
+      "C": {
+        "en": "Impersonation",
+        "zh": "冒充"
+      },
+      "D": {
+        "en": "Vishing",
+        "zh": "語音釣魚攻擊"
+      },
+      "E": {
+        "en": "Smishing",
+        "zh": "簡訊詐騙"
+      },
+      "F": {
+        "en": "Misinformation",
+        "zh": "錯誤資訊"
+      }
+    },
+    "correct_answer": [
+      "C",
+      "E"
+    ],
+    "explanation": "Smishing is phishing via SMS, and impersonation involves pretending to be the payroll department."
+  },
+  "Q123": {
+    "question_en": "Several employees received a fraudulent text message from someone claiming to be the Chief Executive Officer (CEO). The message stated: 'I'm in an airport right now with no access to email. I need you to buy gift cards for employee recognition awards. Please send the gift cards to following email address.' Which of the following are the best responses to this situation? (Choose two).",
+    "question_zh": "哪一項演算法最常用來保護機密性資料？",
+    "options": {
+      "A": {
+        "en": "Cancel current employee recognition gift cards.",
+        "zh": "取消現有員工認可禮品卡。"
+      },
+      "B": {
+        "en": "Add a smishing exercise to the annual company training.",
+        "zh": "在年度公司訓練中加入簡訊釣魚演練。"
+      },
+      "C": {
+        "en": "Issue a general email warning to the company.",
+        "zh": "發出公司內部通用電子郵件警告。"
+      },
+      "D": {
+        "en": "Have the CEO change phone numbers.",
+        "zh": "讓執行長更換電話號碼。"
+      },
+      "E": {
+        "en": "Conduct a forensic investigation on the CEO's phone.",
+        "zh": "對執行長手機進行鑑識調查。"
+      },
+      "F": {
+        "en": "Implement mobile device management.",
+        "zh": "實施行動裝置管理（MDM）。"
+      }
+    },
+    "correct_answer": [
+      "B",
+      "C"
+    ],
+    "explanation": "Adding smishing training raises awareness, and issuing a warning alerts employees to the current threat."
+  },
+  "Q124": {
+    "question_en": "An organization wants a third-party vendor to do a penetration test that targets a specific device. The organization has provided basic information about the device. Which of the following best describes this kind of penetration test?",
+    "question_zh": "某公司需要能跨設備與平台統一使用者身份與權限的方案，應該選擇？",
+    "options": {
+      "A": {
+        "en": "Partially known environment",
+        "zh": "Partially known environment"
+      },
+      "B": {
+        "en": "Unknown environment",
+        "zh": "Unknown environment"
+      },
+      "C": {
+        "en": "Integrated",
+        "zh": "Integrated"
+      },
+      "D": {
+        "en": "Known environment",
+        "zh": "Known environment"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "A partially known environment (gray box) test provides some information about the target to the tester."
+  },
+  "Q125": {
+    "question_en": "An attacker posing as the Chief Executive Officer calls an employee and instructs the employee to buy gift cards. Which of the following techniques is the attacker using?",
+    "question_zh": "在企業安全政策中提及強制記錄存取敏感資料的行為，此屬於哪類控制？",
+    "options": {
+      "A": {
+        "en": "Smishing",
+        "zh": "簡訊詐騙"
+      },
+      "B": {
+        "en": "Disinformation",
+        "zh": "假資訊"
+      },
+      "C": {
+        "en": "Impersonating",
+        "zh": "冒充"
+      },
+      "D": {
+        "en": "Whaling",
+        "zh": "高階主管釣魚攻擊"
+      }
+    },
+    "correct_answer": "C",
+    "explanation": "Impersonating involves pretending to be someone else (the CEO) to deceive the employee."
+  },
+  "Q126": {
+    "question_en": "An analyst is evaluating the implementation of Zero Trust principles within the data plane. Which of the following would be most relevant for the analyst to evaluate?",
+    "question_zh": "哪一項是員工在安全意識訓練中最重要的學習目標？",
+    "options": {
+      "A": {
+        "en": "Secured zones",
+        "zh": "安全區域"
+      },
+      "B": {
+        "en": "Subject role",
+        "zh": "主體角色"
+      },
+      "C": {
+        "en": "Adaptive identity",
+        "zh": "適應性身份"
+      },
+      "D": {
+        "en": "Threat scope reduction",
+        "zh": "威脅範圍縮減"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "The data plane includes secured zones, systems and subjects, and policy enforcement points in Zero Trust architecture."
+  },
+  "Q127": {
+    "question_en": "An organization is leveraging a VPN between its headquarters and a branch location. Which of the following is the VPN protecting?",
+    "question_zh": "針對某敏感系統，管理員想要強制使用多因素認證以強化安全性。以下哪三項最符合 MFA？（選三項）",
+    "options": {
+      "A": {
+        "en": "Data in use",
+        "zh": "使用中資料"
+      },
+      "B": {
+        "en": "Data in transit",
+        "zh": "傳輸中資料"
+      },
+      "C": {
+        "en": "Geographic restrictions",
+        "zh": "地理限制"
+      },
+      "D": {
+        "en": "Data sovereignty",
+        "zh": "資料主權"
+      }
+    },
+    "correct_answer": "B",
+    "explanation": "VPNs protect data in transit by creating encrypted tunnels for data moving between locations."
+  },
+  "Q128": {
+    "question_en": "The marketing department set up its own project management software without telling the appropriate departments. Which of the following describes this scenario?",
+    "question_zh": "一名研究人員指出，透過觀察鍵盤與螢幕反射可推測使用者輸入內容。這是哪種攻擊？",
+    "options": {
+      "A": {
+        "en": "Shadow IT",
+        "zh": "影子資訊科技"
+      },
+      "B": {
+        "en": "Insider threat",
+        "zh": "內部威脅"
+      },
+      "C": {
+        "en": "Third-party risk",
+        "zh": "第三方風險"
+      },
+      "D": {
+        "en": "Data sovereignty",
+        "zh": "資料主權"
+      }
+    },
+    "correct_answer": "A",
+    "explanation": "Shadow IT refers to the use of IT systems, devices, software, applications, and services without explicit IT department approval."
+  },
+"Q129": {
+  "question_en": "A company wants to verify that the software the company is deploying came from the vendor the company purchased the software from. Which of the following is the best way for the company to confirm this information?",
+  "question_zh": "一家公司想要驗證其部署的軟體是否來自該公司購買軟體的供應商。以下哪種方法最適合該公司確認此資訊？",
+  "options": {
+    "A": {
+      "en": "Validate the code signature.",
+      "zh": "驗證程式碼簽章"
+    },
+    "B": {
+      "en": "Execute the code in a sandbox.",
+      "zh": "在沙箱中執行程式碼"
+    },
+    "C": {
+      "en": "Search the executable for ASCII strings.",
+      "zh": "在可執行檔中搜尋 ASCII 字串"
+    },
+    "D": {
+      "en": "Generate a hash of the files.",
+      "zh": "產生檔案的雜湊值"
+    }
+  },
+  "correct_answer": "A",
+  "explanation": "Validating the code signature is the best way to verify software authenticity, as it ensures that the software has not been tampered with and that it comes from a verified source. Code signatures are digital signatures applied by the software vendor, and validating them confirms the software's integrity and origin."
+},
+
+"Q130": {
+  "question_en": "After a security incident, a systems administrator asks the company to buy a NAC platform. Which of the following attack surfaces is the systems administrator trying to protect?",
+  "question_zh": "在發生安全事件後，系統管理員要求公司購買 NAC 平台。系統管理員試圖保護以下哪種攻擊面？",
+  "options": {
+    "A": {
+      "en": "Bluetooth",
+      "zh": "藍牙"
+    },
+    "B": {
+      "en": "Wired",
+      "zh": "有線網路"
+    },
+    "C": {
+      "en": "NFC",
+      "zh": "近場通訊（NFC）"
+    },
+    "D": {
+      "en": "SCADA",
+      "zh": "監控與資料擷取系統（SCADA）"
+    }
+  },
+  "correct_answer": "B",
+  "explanation": "A NAC (network access control) platform is a technology that enforces security policies on devices that attempt to access a network. A NAC platform can verify the identity, role, and compliance of the devices, and grant or deny access based on predefined rules. A NAC platform can protect both wired and wireless networks, but in this scenario, the systems administrator is trying to protect the wired attack surface, which is the set of vulnerabilities that can be exploited through a physical connection to the network."
+}
+}
